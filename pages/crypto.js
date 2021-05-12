@@ -143,7 +143,7 @@ const Crypto = () => {
               <div className="flex items-center justify-start">
                   <span className="text-black font-bold pr-2">{item.name}</span>
                   <span className=" text-gray-400 font-medium -ml-3 p-2">BTC</span>
-                  <span className="px-1 -ml-2 bg-gray-300 text-black font-bold text-sm rounded-md">Buy</span>
+                  <span className="px-1 -ml-2 bg-gray-300 text-black font-bold text-sm rounded-md flex justify-end">Buy</span>
               </div>
               <span className="text-black font-bold flex justify-end">{item.price}</span>
               <div className="flex items-center justify-end">
