@@ -5,7 +5,7 @@ const Sidebar = () => {
 <div
   class="hidden lg:block w-64 bg-gray-100 border-r  px-8 py-4 overflow-auto"
 >
-  <img src="../img/logo.svg" alt="logo" width="45" />
+<svg class="h-4 w-4 " xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M12 1.586l-4 4v12.828l4-4V1.586zM3.707 3.293A1 1 0 002 4v10a1 1 0 00.293.707L6 18.414V5.586L3.707 3.293zM17.707 5.293L14 1.586v12.828l2.293 2.293A1 1 0 0018 16V6a1 1 0 00-.293-.707z" clip-rule="evenodd" /></svg>
   <nav class="mt-8">
     <h3 class="text-sm font-semibold text-gray-600 uppercase tracking-wide mb-2">Issues</h3>
     <div class="mt-2 -mx-3">
@@ -116,7 +116,7 @@ const Sidebar = () => {
         </div>
       </div>
       <div class="flex items-center justify-between py-2">
-        <div class="flex items-center">
+        {/* <div class="flex items-center">
           <h2 class="text-2xl font-semibold text-gray-900 leading-tight">All Issues</h2>
 
           <div class="ml-6 flex flex-center">
@@ -149,10 +149,10 @@ const Sidebar = () => {
               />
             </span>
           </div>
-        </div>
+        </div> */}
 
         {/* <!-- all issue and avatar ends --> */}
-        <div class="hidden md:flex">
+        {/* <div class="hidden md:flex">
           <span class="p-1 inline-flex border bg-gray-200 rounded-md">
             <button class="px-2 py-1 rounded">
               <svg class="text-gray-600" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -183,7 +183,7 @@ const Sidebar = () => {
             </svg>
             <span class="text-sm text-gray-200">New Issue</span>
           </button>
-        </div>
+        </div> */}
       </div>
     </header>
   </div>
@@ -191,7 +191,7 @@ const Sidebar = () => {
    {/* header components ends */}
 
 
-   <div class="flex-1 overflow-auto">
+   {/* <div class="flex-1 overflow-auto">
     <main class="p-3 h-full inline-flex">
       <div class="ml-4 flex-shrink-0 flex flex-col  bg-gray-100 rounded-md">
         <h3 class="flex-shrink-0 pt-3 pb-1 px-3 text-sm font-medium text-gray-900">Backlog</h3>
@@ -883,7 +883,7 @@ const Sidebar = () => {
         </div>
       </div>
     </main>
-  </div> 
+  </div>  */}
 </div>
 </div>
         </>

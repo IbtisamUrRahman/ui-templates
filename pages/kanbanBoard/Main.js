@@ -16,7 +16,7 @@ const Main = () => {
               />
             </svg>
           </button>
-          <div class="ml-3 relative w-64 lg:ml-0">
+          {/* <div class="ml-3 relative w-64 lg:ml-0">
             <span class="absolute inset-y-0 left-0 flex items-center pl-2 text-gray-500">
               <svg width="25" height="25" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -31,10 +31,10 @@ const Main = () => {
               placeholder="Search"
               class="rounded-md border border-gray-400 pl-12 pr-4 py-3 text-sm leading-tight placeholder-gray-600 text-gray-900"
             />
-          </div>
+          </div> */}
         </div>
 
-        <div class="flex items-center">
+        {/* <div class="flex items-center">
           <button>
             <svg class="text-gray-600" width="25" height="25" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
@@ -52,7 +52,7 @@ const Main = () => {
               alt="profile"
             />
           </button>
-        </div>
+        </div> */}
       </div>
       <div class="flex items-center justify-between py-2">
         <div class="flex items-center">
@@ -149,11 +149,11 @@ const Main = () => {
                 <div class="flex justify-between mt-5">
                   <div class="text-sm text-gray-600"><time datetime="2020-10-12">Sep 15</time></div>
                   <div>
-                    <span class="inline-flex items-center leading-tight bg-teal-100 px-2 py-1 rounded-full">
+                    <span class="inline-flex items-center leading-tight bg-green-100 px-2 py-1 rounded-full">
                       <svg class="h-2 w-2" viewBox="0 0 8 8" fill="#00bfa5">
                         <circle cx="4" cy="4" r="3" />
                       </svg>
-                      <span class="text-sm font-medium text-teal-500 rounded-full ml-1">Feature Request</span>
+                      <span class="text-sm font-medium text-green-500 rounded-full ml-1">Feature Request</span>
                     </span>
                   </div>
                 </div>
@@ -174,11 +174,11 @@ const Main = () => {
                 <div class="flex justify-between mt-5">
                   <div class="text-sm text-gray-600"><time datetime="2020-10-12">Sep 15</time></div>
                   <div>
-                    <span class="inline-flex items-center leading-tight bg-teal-100 px-2 py-1 rounded-full">
+                    <span class="inline-flex items-center leading-tight bg-green-100 px-2 py-1 rounded-full">
                       <svg class="h-2 w-2" viewBox="0 0 8 8" fill="#00bfa5">
                         <circle cx="4" cy="4" r="3" />
                       </svg>
-                      <span class="text-sm font-medium text-teal-500 rounded-full ml-1">Feature Request</span>
+                      <span class="text-sm font-medium text-green-500 rounded-full ml-1">Feature Request</span>
                     </span>
                   </div>
                 </div>
@@ -199,11 +199,11 @@ const Main = () => {
                 <div class="flex justify-between mt-5">
                   <div class="text-sm text-gray-600"><time datetime="2020-10-12">Sep 15</time></div>
                   <div>
-                    <span class="inline-flex items-center leading-tight bg-teal-100 px-2 py-1 rounded-full">
+                    <span class="inline-flex items-center leading-tight bg-green-100 px-2 py-1 rounded-full">
                       <svg class="h-2 w-2" viewBox="0 0 8 8" fill="#00bfa5">
                         <circle cx="4" cy="4" r="3" />
                       </svg>
-                      <span class="text-sm font-medium text-teal-500 rounded-full ml-1">Feature Request</span>
+                      <span class="text-sm font-medium text-green-500 rounded-full ml-1">Feature Request</span>
                     </span>
                   </div>
                 </div>
@@ -224,37 +224,11 @@ const Main = () => {
                 <div class="flex justify-between mt-5">
                   <div class="text-sm text-gray-600"><time datetime="2020-10-12">Sep 15</time></div>
                   <div>
-                    <span class="inline-flex items-center leading-tight bg-teal-100 px-2 py-1 rounded-full">
+                    <span class="inline-flex items-center leading-tight bg-green-100 px-2 py-1 rounded-full">
                       <svg class="h-2 w-2" viewBox="0 0 8 8" fill="#00bfa5">
                         <circle cx="4" cy="4" r="3" />
                       </svg>
-                      <span class="text-sm font-medium text-teal-500 rounded-full ml-1">Feature Request</span>
-                    </span>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <li class="mt-3">
-              <a href="#" class="block p-5 bg-white rounded-md shadow">
-                <div class="flex justify-between">
-                  <p class="text-sm font-medium leading-snug text-gray-900">
-                    Add discount code to checkout page.
-                  </p>
-
-                  <img
-                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=144&h=144&q=80"
-                    alt="avatar"
-                    class="h-5 w-5 rounded-full"
-                  />
-                </div>
-                <div class="flex justify-between mt-5">
-                  <div class="text-sm text-gray-600"><time datetime="2020-10-12">Sep 15</time></div>
-                  <div>
-                    <span class="inline-flex items-center leading-tight bg-teal-100 px-2 py-1 rounded-full">
-                      <svg class="h-2 w-2" viewBox="0 0 8 8" fill="#00bfa5">
-                        <circle cx="4" cy="4" r="3" />
-                      </svg>
-                      <span class="text-sm font-medium text-teal-500 rounded-full ml-1">Feature Request</span>
+                      <span class="text-sm font-medium text-green-500 rounded-full ml-1">Feature Request</span>
                     </span>
                   </div>
                 </div>
@@ -276,11 +250,37 @@ const Main = () => {
                 <div class="flex justify-between mt-5">
                   <div class="text-sm text-gray-600"><time datetime="2020-10-12">Sep 15</time></div>
                   <div>
-                    <span class="inline-flex items-center leading-tight bg-teal-100 px-2 py-1 rounded-full">
+                    <span class="inline-flex items-center leading-tight bg-green-100 px-2 py-1 rounded-full">
                       <svg class="h-2 w-2" viewBox="0 0 8 8" fill="#00bfa5">
                         <circle cx="4" cy="4" r="3" />
                       </svg>
-                      <span class="text-sm font-medium text-teal-500 rounded-full ml-1">Feature Request</span>
+                      <span class="text-sm font-medium text-green-500 rounded-full ml-1">Feature Request</span>
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="mt-3">
+              <a href="#" class="block p-5 bg-white rounded-md shadow">
+                <div class="flex justify-between">
+                  <p class="text-sm font-medium leading-snug text-gray-900">
+                    Add discount code to checkout page.
+                  </p>
+
+                  <img
+                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=144&h=144&q=80"
+                    alt="avatar"
+                    class="h-5 w-5 rounded-full"
+                  />
+                </div>
+                <div class="flex justify-between mt-5">
+                  <div class="text-sm text-gray-600"><time datetime="2020-10-12">Sep 15</time></div>
+                  <div>
+                    <span class="inline-flex items-center leading-tight bg-green-100 px-2 py-1 rounded-full">
+                      <svg class="h-2 w-2" viewBox="0 0 8 8" fill="#00bfa5">
+                        <circle cx="4" cy="4" r="3" />
+                      </svg>
+                      <span class="text-sm font-medium text-green-500 rounded-full ml-1">Feature Request</span>
                     </span>
                   </div>
                 </div>
@@ -309,11 +309,11 @@ const Main = () => {
                 <div class="flex justify-between mt-5">
                   <div class="text-sm text-gray-600"><time datetime="2020-10-12">Sep 15</time></div>
                   <div>
-                    <span class="inline-flex items-center leading-tight bg-teal-100 px-2 py-1 rounded-full">
+                    <span class="inline-flex items-center leading-tight bg-green-100 px-2 py-1 rounded-full">
                       <svg class="h-2 w-2" viewBox="0 0 8 8" fill="#00bfa5">
                         <circle cx="4" cy="4" r="3" />
                       </svg>
-                      <span class="text-sm font-medium text-teal-500 rounded-full ml-1">Feature Request</span>
+                      <span class="text-sm font-medium text-green-500 rounded-full ml-1">Feature Request</span>
                     </span>
                   </div>
                 </div>
@@ -334,37 +334,11 @@ const Main = () => {
                 <div class="flex justify-between mt-5">
                   <div class="text-sm text-gray-600"><time datetime="2020-10-12">Sep 15</time></div>
                   <div>
-                    <span class="inline-flex items-center leading-tight bg-teal-100 px-2 py-1 rounded-full">
+                    <span class="inline-flex items-center leading-tight bg-green-100 px-2 py-1 rounded-full">
                       <svg class="h-2 w-2" viewBox="0 0 8 8" fill="#00bfa5">
                         <circle cx="4" cy="4" r="3" />
                       </svg>
-                      <span class="text-sm font-medium text-teal-500 rounded-full ml-1">Feature Request</span>
-                    </span>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <li class="mt-3">
-              <a href="#" class="block p-5 bg-white rounded-md shadow">
-                <div class="flex justify-between">
-                  <p class="text-sm font-medium leading-snug text-gray-900">
-                    Add discount code to checkout page.
-                  </p>
-
-                  <img
-                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=144&h=144&q=80"
-                    alt="avatar"
-                    class="h-5 w-5 rounded-full"
-                  />
-                </div>
-                <div class="flex justify-between mt-5">
-                  <div class="text-sm text-gray-600"><time datetime="2020-10-12">Sep 15</time></div>
-                  <div>
-                    <span class="inline-flex items-center leading-tight bg-teal-100 px-2 py-1 rounded-full">
-                      <svg class="h-2 w-2" viewBox="0 0 8 8" fill="#00bfa5">
-                        <circle cx="4" cy="4" r="3" />
-                      </svg>
-                      <span class="text-sm font-medium text-teal-500 rounded-full ml-1">Feature Request</span>
+                      <span class="text-sm font-medium text-green-500 rounded-full ml-1">Feature Request</span>
                     </span>
                   </div>
                 </div>
@@ -386,11 +360,37 @@ const Main = () => {
                 <div class="flex justify-between mt-5">
                   <div class="text-sm text-gray-600"><time datetime="2020-10-12">Sep 15</time></div>
                   <div>
-                    <span class="inline-flex items-center leading-tight bg-teal-100 px-2 py-1 rounded-full">
+                    <span class="inline-flex items-center leading-tight bg-green-100 px-2 py-1 rounded-full">
                       <svg class="h-2 w-2" viewBox="0 0 8 8" fill="#00bfa5">
                         <circle cx="4" cy="4" r="3" />
                       </svg>
-                      <span class="text-sm font-medium text-teal-500 rounded-full ml-1">Feature Request</span>
+                      <span class="text-sm font-medium text-green-500 rounded-full ml-1">Feature Request</span>
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="mt-3">
+              <a href="#" class="block p-5 bg-white rounded-md shadow">
+                <div class="flex justify-between">
+                  <p class="text-sm font-medium leading-snug text-gray-900">
+                    Add discount code to checkout page.
+                  </p>
+
+                  <img
+                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=144&h=144&q=80"
+                    alt="avatar"
+                    class="h-5 w-5 rounded-full"
+                  />
+                </div>
+                <div class="flex justify-between mt-5">
+                  <div class="text-sm text-gray-600"><time datetime="2020-10-12">Sep 15</time></div>
+                  <div>
+                    <span class="inline-flex items-center leading-tight bg-green-100 px-2 py-1 rounded-full">
+                      <svg class="h-2 w-2" viewBox="0 0 8 8" fill="#00bfa5">
+                        <circle cx="4" cy="4" r="3" />
+                      </svg>
+                      <span class="text-sm font-medium text-green-500 rounded-full ml-1">Feature Request</span>
                     </span>
                   </div>
                 </div>
@@ -419,11 +419,11 @@ const Main = () => {
                 <div class="flex justify-between mt-5">
                   <div class="text-sm text-gray-600"><time datetime="2020-10-12">Sep 15</time></div>
                   <div>
-                    <span class="inline-flex items-center leading-tight bg-teal-100 px-2 py-1 rounded-full">
+                    <span class="inline-flex items-center leading-tight bg-green-100 px-2 py-1 rounded-full">
                       <svg class="h-2 w-2" viewBox="0 0 8 8" fill="#00bfa5">
                         <circle cx="4" cy="4" r="3" />
                       </svg>
-                      <span class="text-sm font-medium text-teal-500 rounded-full ml-1">Feature Request</span>
+                      <span class="text-sm font-medium text-green-500 rounded-full ml-1">Feature Request</span>
                     </span>
                   </div>
                 </div>
@@ -445,7 +445,7 @@ const Main = () => {
                   <div class="text-sm text-gray-600"><time datetime="2020-10-12">Sep 15</time></div>
                   <div>
                     <span class="inline-flex items-center leading-tight bg-purple-100 px-2 py-1 rounded-full">
-                      <svg class="h-2 w-2" viewBox="0 0 8 8" fill="#040404">
+                      <svg class="h-2 w-2 " viewBox="0 0 8 8" fill="#040404">
                         <circle cx="4" cy="4" r="3" />
                       </svg>
                       <span class="text-sm font-medium text-purple-500 rounded-full ml-1">Design</span>
@@ -469,11 +469,11 @@ const Main = () => {
                 <div class="flex justify-between mt-5">
                   <div class="text-sm text-gray-600"><time datetime="2020-10-12">Sep 15</time></div>
                   <div>
-                    <span class="inline-flex items-center leading-tight bg-teal-100 px-2 py-1 rounded-full">
+                    <span class="inline-flex items-center leading-tight bg-green-100 px-2 py-1 rounded-full">
                       <svg class="h-2 w-2" viewBox="0 0 8 8" fill="#00bfa5">
                         <circle cx="4" cy="4" r="3" />
                       </svg>
-                      <span class="text-sm font-medium text-teal-500 rounded-full ml-1">Feature Request</span>
+                      <span class="text-sm font-medium text-green-500 rounded-full ml-1">Feature Request</span>
                     </span>
                   </div>
                 </div>
@@ -494,11 +494,11 @@ const Main = () => {
                 <div class="flex justify-between mt-5">
                   <div class="text-sm text-gray-600"><time datetime="2020-10-12">Sep 15</time></div>
                   <div>
-                    <span class="inline-flex items-center leading-tight bg-teal-100 px-2 py-1 rounded-full">
+                    <span class="inline-flex items-center leading-tight bg-green-100 px-2 py-1 rounded-full">
                       <svg class="h-2 w-2" viewBox="0 0 8 8" fill="#00bfa5">
                         <circle cx="4" cy="4" r="3" />
                       </svg>
-                      <span class="text-sm font-medium text-teal-500 rounded-full ml-1">Feature Request</span>
+                      <span class="text-sm font-medium text-green-500 rounded-full ml-1">Feature Request</span>
                     </span>
                   </div>
                 </div>
@@ -519,11 +519,11 @@ const Main = () => {
                 <div class="flex justify-between mt-5">
                   <div class="text-sm text-gray-600"><time datetime="2020-10-12">Sep 15</time></div>
                   <div>
-                    <span class="inline-flex items-center leading-tight bg-teal-100 px-2 py-1 rounded-full">
+                    <span class="inline-flex items-center leading-tight bg-green-100 px-2 py-1 rounded-full">
                       <svg class="h-2 w-2" viewBox="0 0 8 8" fill="#00bfa5">
                         <circle cx="4" cy="4" r="3" />
                       </svg>
-                      <span class="text-sm font-medium text-teal-500 rounded-full ml-1">Feature Request</span>
+                      <span class="text-sm font-medium text-green-500 rounded-full ml-1">Feature Request</span>
                     </span>
                   </div>
                 </div>
@@ -544,37 +544,11 @@ const Main = () => {
                 <div class="flex justify-between mt-5">
                   <div class="text-sm text-gray-600"><time datetime="2020-10-12">Sep 15</time></div>
                   <div>
-                    <span class="inline-flex items-center leading-tight bg-teal-100 px-2 py-1 rounded-full">
+                    <span class="inline-flex items-center leading-tight bg-green-100 px-2 py-1 rounded-full">
                       <svg class="h-2 w-2" viewBox="0 0 8 8" fill="#00bfa5">
                         <circle cx="4" cy="4" r="3" />
                       </svg>
-                      <span class="text-sm font-medium text-teal-500 rounded-full ml-1">Feature Request</span>
-                    </span>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <li class="mt-3">
-              <a href="#" class="block p-5 bg-white rounded-md shadow">
-                <div class="flex justify-between">
-                  <p class="text-sm font-medium leading-snug text-gray-900">
-                    Add discount code to checkout page.
-                  </p>
-
-                  <img
-                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=144&h=144&q=80"
-                    alt="avatar"
-                    class="h-5 w-5 rounded-full"
-                  />
-                </div>
-                <div class="flex justify-between mt-5">
-                  <div class="text-sm text-gray-600"><time datetime="2020-10-12">Sep 15</time></div>
-                  <div>
-                    <span class="inline-flex items-center leading-tight bg-teal-100 px-2 py-1 rounded-full">
-                      <svg class="h-2 w-2" viewBox="0 0 8 8" fill="#00bfa5">
-                        <circle cx="4" cy="4" r="3" />
-                      </svg>
-                      <span class="text-sm font-medium text-teal-500 rounded-full ml-1">Feature Request</span>
+                      <span class="text-sm font-medium text-green-500 rounded-full ml-1">Feature Request</span>
                     </span>
                   </div>
                 </div>
@@ -596,11 +570,37 @@ const Main = () => {
                 <div class="flex justify-between mt-5">
                   <div class="text-sm text-gray-600"><time datetime="2020-10-12">Sep 15</time></div>
                   <div>
-                    <span class="inline-flex items-center leading-tight bg-teal-100 px-2 py-1 rounded-full">
+                    <span class="inline-flex items-center leading-tight bg-green-100 px-2 py-1 rounded-full">
                       <svg class="h-2 w-2" viewBox="0 0 8 8" fill="#00bfa5">
                         <circle cx="4" cy="4" r="3" />
                       </svg>
-                      <span class="text-sm font-medium text-teal-500 rounded-full ml-1">Feature Request</span>
+                      <span class="text-sm font-medium text-green-500 rounded-full ml-1">Feature Request</span>
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="mt-3">
+              <a href="#" class="block p-5 bg-white rounded-md shadow">
+                <div class="flex justify-between">
+                  <p class="text-sm font-medium leading-snug text-gray-900">
+                    Add discount code to checkout page.
+                  </p>
+
+                  <img
+                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=144&h=144&q=80"
+                    alt="avatar"
+                    class="h-5 w-5 rounded-full"
+                  />
+                </div>
+                <div class="flex justify-between mt-5">
+                  <div class="text-sm text-gray-600"><time datetime="2020-10-12">Sep 15</time></div>
+                  <div>
+                    <span class="inline-flex items-center leading-tight bg-green-100 px-2 py-1 rounded-full">
+                      <svg class="h-2 w-2" viewBox="0 0 8 8" fill="#00bfa5">
+                        <circle cx="4" cy="4" r="3" />
+                      </svg>
+                      <span class="text-sm font-medium text-green-500 rounded-full ml-1">Feature Request</span>
                     </span>
                   </div>
                 </div>
@@ -629,11 +629,11 @@ const Main = () => {
                 <div class="flex justify-between mt-5">
                   <div class="text-sm text-gray-600"><time datetime="2020-10-12">Sep 15</time></div>
                   <div>
-                    <span class="inline-flex items-center leading-tight bg-teal-100 px-2 py-1 rounded-full">
+                    <span class="inline-flex items-center leading-tight bg-green-100 px-2 py-1 rounded-full">
                       <svg class="h-2 w-2" viewBox="0 0 8 8" fill="#00bfa5">
                         <circle cx="4" cy="4" r="3" />
                       </svg>
-                      <span class="text-sm font-medium text-teal-500 rounded-full ml-1">Feature Request</span>
+                      <span class="text-sm font-medium text-green-500 rounded-full ml-1">Feature Request</span>
                     </span>
                   </div>
                 </div>
@@ -679,11 +679,11 @@ const Main = () => {
                 <div class="flex justify-between mt-5">
                   <div class="text-sm text-gray-600"><time datetime="2020-10-12">Sep 15</time></div>
                   <div>
-                    <span class="inline-flex items-center leading-tight bg-teal-100 px-2 py-1 rounded-full">
+                    <span class="inline-flex items-center leading-tight bg-green-100 px-2 py-1 rounded-full">
                       <svg class="h-2 w-2" viewBox="0 0 8 8" fill="#00bfa5">
                         <circle cx="4" cy="4" r="3" />
                       </svg>
-                      <span class="text-sm font-medium text-teal-500 rounded-full ml-1">Feature Request</span>
+                      <span class="text-sm font-medium text-green-500 rounded-full ml-1">Feature Request</span>
                     </span>
                   </div>
                 </div>
@@ -704,11 +704,11 @@ const Main = () => {
                 <div class="flex justify-between mt-5">
                   <div class="text-sm text-gray-600"><time datetime="2020-10-12">Sep 15</time></div>
                   <div>
-                    <span class="inline-flex items-center leading-tight bg-teal-100 px-2 py-1 rounded-full">
+                    <span class="inline-flex items-center leading-tight bg-green-100 px-2 py-1 rounded-full">
                       <svg class="h-2 w-2" viewBox="0 0 8 8" fill="#00bfa5">
                         <circle cx="4" cy="4" r="3" />
                       </svg>
-                      <span class="text-sm font-medium text-teal-500 rounded-full ml-1">Feature Request</span>
+                      <span class="text-sm font-medium text-green-500 rounded-full ml-1">Feature Request</span>
                     </span>
                   </div>
                 </div>
@@ -729,11 +729,11 @@ const Main = () => {
                 <div class="flex justify-between mt-5">
                   <div class="text-sm text-gray-600"><time datetime="2020-10-12">Sep 15</time></div>
                   <div>
-                    <span class="inline-flex items-center leading-tight bg-teal-100 px-2 py-1 rounded-full">
+                    <span class="inline-flex items-center leading-tight bg-green-100 px-2 py-1 rounded-full">
                       <svg class="h-2 w-2" viewBox="0 0 8 8" fill="#00bfa5">
                         <circle cx="4" cy="4" r="3" />
                       </svg>
-                      <span class="text-sm font-medium text-teal-500 rounded-full ml-1">Feature Request</span>
+                      <span class="text-sm font-medium text-green-500 rounded-full ml-1">Feature Request</span>
                     </span>
                   </div>
                 </div>
@@ -754,37 +754,11 @@ const Main = () => {
                 <div class="flex justify-between mt-5">
                   <div class="text-sm text-gray-600"><time datetime="2020-10-12">Sep 15</time></div>
                   <div>
-                    <span class="inline-flex items-center leading-tight bg-teal-100 px-2 py-1 rounded-full">
+                    <span class="inline-flex items-center leading-tight bg-green-100 px-2 py-1 rounded-full">
                       <svg class="h-2 w-2" viewBox="0 0 8 8" fill="#00bfa5">
                         <circle cx="4" cy="4" r="3" />
                       </svg>
-                      <span class="text-sm font-medium text-teal-500 rounded-full ml-1">Feature Request</span>
-                    </span>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <li class="mt-3">
-              <a href="#" class="block p-5 bg-white rounded-md shadow">
-                <div class="flex justify-between">
-                  <p class="text-sm font-medium leading-snug text-gray-900">
-                    Add discount code to checkout page.
-                  </p>
-
-                  <img
-                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=144&h=144&q=80"
-                    alt="avatar"
-                    class="h-5 w-5 rounded-full"
-                  />
-                </div>
-                <div class="flex justify-between mt-5">
-                  <div class="text-sm text-gray-600"><time datetime="2020-10-12">Sep 15</time></div>
-                  <div>
-                    <span class="inline-flex items-center leading-tight bg-teal-100 px-2 py-1 rounded-full">
-                      <svg class="h-2 w-2" viewBox="0 0 8 8" fill="#00bfa5">
-                        <circle cx="4" cy="4" r="3" />
-                      </svg>
-                      <span class="text-sm font-medium text-teal-500 rounded-full ml-1">Feature Request</span>
+                      <span class="text-sm font-medium text-green-500 rounded-full ml-1">Feature Request</span>
                     </span>
                   </div>
                 </div>
@@ -806,11 +780,37 @@ const Main = () => {
                 <div class="flex justify-between mt-5">
                   <div class="text-sm text-gray-600"><time datetime="2020-10-12">Sep 15</time></div>
                   <div>
-                    <span class="inline-flex items-center leading-tight bg-teal-100 px-2 py-1 rounded-full">
+                    <span class="inline-flex items-center leading-tight bg-green-100 px-2 py-1 rounded-full">
                       <svg class="h-2 w-2" viewBox="0 0 8 8" fill="#00bfa5">
                         <circle cx="4" cy="4" r="3" />
                       </svg>
-                      <span class="text-sm font-medium text-teal-500 rounded-full ml-1">Feature Request</span>
+                      <span class="text-sm font-medium text-green-500 rounded-full ml-1">Feature Request</span>
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="mt-3">
+              <a href="#" class="block p-5 bg-white rounded-md shadow">
+                <div class="flex justify-between">
+                  <p class="text-sm font-medium leading-snug text-gray-900">
+                    Add discount code to checkout page.
+                  </p>
+
+                  <img
+                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=144&h=144&q=80"
+                    alt="avatar"
+                    class="h-5 w-5 rounded-full"
+                  />
+                </div>
+                <div class="flex justify-between mt-5">
+                  <div class="text-sm text-gray-600"><time datetime="2020-10-12">Sep 15</time></div>
+                  <div>
+                    <span class="inline-flex items-center leading-tight bg-green-100 px-2 py-1 rounded-full">
+                      <svg class="h-2 w-2" viewBox="0 0 8 8" fill="#00bfa5">
+                        <circle cx="4" cy="4" r="3" />
+                      </svg>
+                      <span class="text-sm font-medium text-green-500 rounded-full ml-1">Feature Request</span>
                     </span>
                   </div>
                 </div>
@@ -839,11 +839,11 @@ const Main = () => {
                 <div class="flex justify-between mt-5">
                   <div class="text-sm text-gray-600"><time datetime="2020-10-12">Sep 15</time></div>
                   <div>
-                    <span class="inline-flex items-center leading-tight bg-teal-100 px-2 py-1 rounded-full">
+                    <span class="inline-flex items-center leading-tight bg-green-100 px-2 py-1 rounded-full">
                       <svg class="h-2 w-2" viewBox="0 0 8 8" fill="#00bfa5">
                         <circle cx="4" cy="4" r="3" />
                       </svg>
-                      <span class="text-sm font-medium text-teal-500 rounded-full ml-1">Feature Request</span>
+                      <span class="text-sm font-medium text-green-500 rounded-full ml-1">Feature Request</span>
                     </span>
                   </div>
                 </div>
@@ -889,11 +889,11 @@ const Main = () => {
                 <div class="flex justify-between mt-5">
                   <div class="text-sm text-gray-600"><time datetime="2020-10-12">Sep 15</time></div>
                   <div>
-                    <span class="inline-flex items-center leading-tight bg-teal-100 px-2 py-1 rounded-full">
+                    <span class="inline-flex items-center leading-tight bg-green-100 px-2 py-1 rounded-full">
                       <svg class="h-2 w-2" viewBox="0 0 8 8" fill="#00bfa5">
                         <circle cx="4" cy="4" r="3" />
                       </svg>
-                      <span class="text-sm font-medium text-teal-500 rounded-full ml-1">Feature Request</span>
+                      <span class="text-sm font-medium text-green-500 rounded-full ml-1">Feature Request</span>
                     </span>
                   </div>
                 </div>
@@ -914,11 +914,11 @@ const Main = () => {
                 <div class="flex justify-between mt-5">
                   <div class="text-sm text-gray-600"><time datetime="2020-10-12">Sep 15</time></div>
                   <div>
-                    <span class="inline-flex items-center leading-tight bg-teal-100 px-2 py-1 rounded-full">
+                    <span class="inline-flex items-center leading-tight bg-green-100 px-2 py-1 rounded-full">
                       <svg class="h-2 w-2" viewBox="0 0 8 8" fill="#00bfa5">
                         <circle cx="4" cy="4" r="3" />
                       </svg>
-                      <span class="text-sm font-medium text-teal-500 rounded-full ml-1">Feature Request</span>
+                      <span class="text-sm font-medium text-green-500 rounded-full ml-1">Feature Request</span>
                     </span>
                   </div>
                 </div>
@@ -939,11 +939,11 @@ const Main = () => {
                 <div class="flex justify-between mt-5">
                   <div class="text-sm text-gray-600"><time datetime="2020-10-12">Sep 15</time></div>
                   <div>
-                    <span class="inline-flex items-center leading-tight bg-teal-100 px-2 py-1 rounded-full">
+                    <span class="inline-flex items-center leading-tight bg-green-100 px-2 py-1 rounded-full">
                       <svg class="h-2 w-2" viewBox="0 0 8 8" fill="#00bfa5">
                         <circle cx="4" cy="4" r="3" />
                       </svg>
-                      <span class="text-sm font-medium text-teal-500 rounded-full ml-1">Feature Request</span>
+                      <span class="text-sm font-medium text-green-500 rounded-full ml-1">Feature Request</span>
                     </span>
                   </div>
                 </div>
@@ -964,37 +964,11 @@ const Main = () => {
                 <div class="flex justify-between mt-5">
                   <div class="text-sm text-gray-600"><time datetime="2020-10-12">Sep 15</time></div>
                   <div>
-                    <span class="inline-flex items-center leading-tight bg-teal-100 px-2 py-1 rounded-full">
+                    <span class="inline-flex items-center leading-tight bg-green-100 px-2 py-1 rounded-full">
                       <svg class="h-2 w-2" viewBox="0 0 8 8" fill="#00bfa5">
                         <circle cx="4" cy="4" r="3" />
                       </svg>
-                      <span class="text-sm font-medium text-teal-500 rounded-full ml-1">Feature Request</span>
-                    </span>
-                  </div>
-                </div>
-              </a>
-            </li>
-            <li class="mt-3">
-              <a href="#" class="block p-5 bg-white rounded-md shadow">
-                <div class="flex justify-between">
-                  <p class="text-sm font-medium leading-snug text-gray-900">
-                    Add discount code to checkout page.
-                  </p>
-
-                  <img
-                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=144&h=144&q=80"
-                    alt="avatar"
-                    class="h-5 w-5 rounded-full"
-                  />
-                </div>
-                <div class="flex justify-between mt-5">
-                  <div class="text-sm text-gray-600"><time datetime="2020-10-12">Sep 15</time></div>
-                  <div>
-                    <span class="inline-flex items-center leading-tight bg-teal-100 px-2 py-1 rounded-full">
-                      <svg class="h-2 w-2" viewBox="0 0 8 8" fill="#00bfa5">
-                        <circle cx="4" cy="4" r="3" />
-                      </svg>
-                      <span class="text-sm font-medium text-teal-500 rounded-full ml-1">Feature Request</span>
+                      <span class="text-sm font-medium text-green-500 rounded-full ml-1">Feature Request</span>
                     </span>
                   </div>
                 </div>
@@ -1016,11 +990,37 @@ const Main = () => {
                 <div class="flex justify-between mt-5">
                   <div class="text-sm text-gray-600"><time datetime="2020-10-12">Sep 15</time></div>
                   <div>
-                    <span class="inline-flex items-center leading-tight bg-teal-100 px-2 py-1 rounded-full">
+                    <span class="inline-flex items-center leading-tight bg-green-100 px-2 py-1 rounded-full">
                       <svg class="h-2 w-2" viewBox="0 0 8 8" fill="#00bfa5">
                         <circle cx="4" cy="4" r="3" />
                       </svg>
-                      <span class="text-sm font-medium text-teal-500 rounded-full ml-1">Feature Request</span>
+                      <span class="text-sm font-medium text-green-500 rounded-full ml-1">Feature Request</span>
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="mt-3">
+              <a href="#" class="block p-5 bg-white rounded-md shadow">
+                <div class="flex justify-between">
+                  <p class="text-sm font-medium leading-snug text-gray-900">
+                    Add discount code to checkout page.
+                  </p>
+
+                  <img
+                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3&w=144&h=144&q=80"
+                    alt="avatar"
+                    class="h-5 w-5 rounded-full"
+                  />
+                </div>
+                <div class="flex justify-between mt-5">
+                  <div class="text-sm text-gray-600"><time datetime="2020-10-12">Sep 15</time></div>
+                  <div>
+                    <span class="inline-flex items-center leading-tight bg-green-100 px-2 py-1 rounded-full">
+                      <svg class="h-2 w-2" viewBox="0 0 8 8" fill="#00bfa5">
+                        <circle cx="4" cy="4" r="3" />
+                      </svg>
+                      <span class="text-sm font-medium text-green-500 rounded-full ml-1">Feature Request</span>
                     </span>
                   </div>
                 </div>
