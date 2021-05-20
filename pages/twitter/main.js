@@ -13,10 +13,10 @@ import { IoRocketSharp } from "react-icons/io5";
 
 const twitterMain = () => {
     return ( 
-        <div className="bg-black min-h-screen">
+        <div className="bg-black min-h-screen ">
         <div className="container mx-auto">
-        <div className="flex items-center">
-            <div className="w-1/4">
+        <div className="flex">
+            <div className="w-1/4 container sticky top-0">
                 <div className="flex items-center p-4"> 
                      <FaTwitter size="2em" className="text-gray-300"/>
                 </div>
@@ -58,8 +58,8 @@ const twitterMain = () => {
             </div>
 
 
-
-            <div className="w-1/2 h-full border-r-2 border-l-2 border-gray-500">
+            <div></div>
+            <div className="flex flex-col relative min-h-screen overscroll-y-auto ml-2 flex-shrink-0 w-1/2 container border-r-2 border-l-2 border-gray-500">
                 <div className="w-full h-8 border-b-2 border-gray-500">
                     <span className="text-gray-300 text-base font-extrabold px-2 py-4">Home</span>
                 </div>
@@ -111,11 +111,77 @@ const twitterMain = () => {
                     <AiOutlineHeart size="1em" className="text-gray-400 font-bold"/>
                     <BiArrowFromBottom size="1em" className="text-gray-400 font-bold"/>
                 </div> 
+
+                
+                <div className="flex items-center px-3 py-1 mt-4">
+                <img className="w-12 h-12 object-cover rounded-full border-2 border-red-600 mr-3" src="https://images.unsplash.com/photo-1603415526960-f7e0328c63b1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZmlsZSUyMHBpY3R1cmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&w=500&q=60"></img>
+                 <div className="block"> 
+                 <div className="flex items-center mb-2">
+                     <AiOutlineRetweet size="1em" className="text-gray-400 font-bold mr-4 "/>
+                     <p className="text-gray-400 text-sm font-semibold">Azam Khan Retweeted</p>
+
+                 </div>
+                 <div className="flex items-center">
+                    <IoRocketSharp size="2em" className="cursor-pointer text-red-500 mr-2 inline-block"/>
+                    <strong className="text-gray-400 mr-1">Ch Daniel</strong>
+                    <span className="text-gray-400 mr-2">@chdaniel</span>
+                    <span className="text-gray-400">.9h</span>
+                 </div>
+                    
+                     <p className="text-gray-400">I went 190 <BsArrowRightShort className="inline-block"/> 1000 followers in 1 mo</p>
+                    
+                 </div>
+                </div>
+                <div className=" ml-16">
+                    <p className="text-gray-400 pl-2 leading-10 tracking-wider">I'd love to make... not an ebook/course. <br/> But a video recording sharing what I wish I knew but didn't find it publically <br/> Drop <FaHandPaper className="inline-block"/> below I will share early acces.</p>
+                </div>
+                <img className="h-64 w-10/12 object-cover mr-4 ml-16 rounded-lg" src="https://www.cnet.com/a/img/6WbbMZvq_qIeKjcH8rnLFW13C2c=/940x0/2018/04/03/25133287-c117-491d-ac33-e1dbc5c36188/screen-shot-2018-04-03-at-2-58-09-pm.png"></img>
+                <div className="flex items-center justify-evenly mt-4 px-3">
+                    <BsChat size="1em" className="text-gray-400 font-bold"/>
+                    <AiOutlineRetweet size="1em" className="text-gray-400 font-bold "/>
+                    <AiOutlineHeart size="1em" className="text-gray-400 font-bold"/>
+                    <BiArrowFromBottom size="1em" className="text-gray-400 font-bold"/>
+                </div> 
+
+                
+                <div className="flex items-center px-3 py-1 mt-4">
+                <img className="w-12 h-12 object-cover rounded-full border-2 border-red-600 mr-3" src="https://images.unsplash.com/photo-1603415526960-f7e0328c63b1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZmlsZSUyMHBpY3R1cmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&w=500&q=60"></img>
+                 <div className="block"> 
+                 <div className="flex items-center mb-2">
+                     <AiOutlineRetweet size="1em" className="text-gray-400 font-bold mr-4 "/>
+                     <p className="text-gray-400 text-sm font-semibold">Azam Khan Retweeted</p>
+
+                 </div>
+                 <div className="flex items-center">
+                    <IoRocketSharp size="2em" className="cursor-pointer text-red-500 mr-2 inline-block"/>
+                    <strong className="text-gray-400 mr-1">Ch Daniel</strong>
+                    <span className="text-gray-400 mr-2">@chdaniel</span>
+                    <span className="text-gray-400">.9h</span>
+                 </div>
+                    
+                     <p className="text-gray-400">I went 190 <BsArrowRightShort className="inline-block"/> 1000 followers in 1 mo</p>
+                    
+                 </div>
+                </div>
+                <div className=" ml-16">
+                    <p className="text-gray-400 pl-2 leading-10 tracking-wider">I'd love to make... not an ebook/course. <br/> But a video recording sharing what I wish I knew but didn't find it publically <br/> Drop <FaHandPaper className="inline-block"/> below I will share early acces.</p>
+                </div>
+                <img className="h-64 w-10/12 object-cover mr-4 ml-16 rounded-lg" src="https://www.cnet.com/a/img/6WbbMZvq_qIeKjcH8rnLFW13C2c=/940x0/2018/04/03/25133287-c117-491d-ac33-e1dbc5c36188/screen-shot-2018-04-03-at-2-58-09-pm.png"></img>
+                <div className="flex items-center justify-evenly mt-4 px-3">
+                    <BsChat size="1em" className="text-gray-400 font-bold"/>
+                    <AiOutlineRetweet size="1em" className="text-gray-400 font-bold "/>
+                    <AiOutlineHeart size="1em" className="text-gray-400 font-bold"/>
+                    <BiArrowFromBottom size="1em" className="text-gray-400 font-bold"/>
+                </div> 
+
+                
+                
             </div>
+            
 
 
 
-            <div className="w-1/4 container ml-12">
+            <div className=" w-1/4 container ml-12 mt-4">
                 <div className="bg-gray-700 w-full h-12 rounded-2xl ">
                     <input className="bg-gray-700 mt-1 ml-2 px-3 py-2 focus:outline-none" placeholder="Search Twitter"/>
                 </div>
@@ -141,7 +207,7 @@ const twitterMain = () => {
                     <span className="text-blue-500 font-semibold text-lg mt-3 ml-2 px-3 py-2">Show more</span>
                 </div>
 
-                <div className="bg-gray-700 w-full h-48 mt-4 rounded-2xl">
+                <div className="bg-gray-700 w-full h-52 mt-4 rounded-2xl">
                     <div className="flex items-center justify-between mt-1  px-3 py-2  border-b border-gray-600">
                         <span className="text-gray-100 text-xl font-bold ">Who to Follow</span>
                     </div>
