@@ -136,7 +136,7 @@ const Navigation = [
         supply: '18,705,333,44,550 BTC',
         status: '216.05%',
         open: false
-      },
+      }
 ]
 const dropDown = [
     { name: 'Charts',  },
@@ -144,7 +144,7 @@ const dropDown = [
     { name: 'Historical Data',  },
   ]
   const cryptoTable = () => {
-      const [features, setFeatures] = useState(featuresData);
+      const [features, setFeatures] = useState([]);
       const onDropdownOpen = (i) => {
           let tempFeatures = features
           tempFeatures[i].open = true
