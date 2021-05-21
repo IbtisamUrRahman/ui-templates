@@ -1,3 +1,5 @@
+import styles from "./dashboard-layout.module.css"
+
 const DashboardLayout = ({children}) => {
   return ( 
       <>
@@ -22,7 +24,7 @@ class="hidden lg:block w-64 bg-gray-100 border-r  px-8 py-4 overflow-auto"
       <span class="text-sm text-gray-600 font-semibold">4 </span>
     </a>
     <a href="#" class="flex justify-between items-center rounded-lg px-3 py-2">
-      <span class="text-sm font-medium text-gray-600">Archived</span>
+      <span class={`text-sm font-medium ${styles['dark-gray-temp']}`}>Archived</span>
       <span class="text-sm text-gray-600 font-semibold"></span>
     </a>
   </div>
