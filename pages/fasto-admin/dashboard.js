@@ -5,7 +5,6 @@ import { BiMessageSquareDots, BiDotsVerticalRounded } from "react-icons/bi";
 import { RiContactsLine, RiPlayListAddLine } from "react-icons/ri";
 import { BsFillTriangleFill, BsPlus, BsChat } from "react-icons/bs";
 import { VscTriangleDown } from "react-icons/vsc";
-import BarChart from '../../components/Bar-Chart'
 
 
 
@@ -13,41 +12,41 @@ const Dashboard = () => {
   return (
     <>
       <DashboardLayout>
-        <div className="grid grid-cols-1 md:grid-cols-2 md:gap-y-4 p-2">
-          <div className="h-24 border border-gray-300 shadow-md rounded-md mx-4 border-l-8">
-            <div className="flex items-center justify-between mx-3">
-              <div className="">
-                 <span className="text-3xl font-bold block mt-2 mb-3">78</span>
-                 <span className="block text-gray-500">Total Project Handled</span>
+        <div className="grid grid-cols-1 md:grid-cols-2 md:gap-y-4 lg:grid-cols-4 lg:gap-3 lg:mx-4 p-2">
+        <div className="h-auto border border-gray-300 border-l-8 shadow-md rounded-md mx-4 lg:mx-0 mt-2 md:mt-0 lg:mt-2">
+            <div className="flex items-center justify-between mx-3 lg:mb-2">
+              <div>
+                 <span className="text-3xl font-bold block mt-2 mb-3 lg:mb-1">78</span>
+                 <span className="block text-gray-500">Projects Handled</span>
               </div>
                 <AiOutlineAppstore size="2em"/>  
             </div>
           </div>
 
-          <div className="h-24 border border-gray-300 border-l-8 shadow-md rounded-md mx-4 mt-2 md:mt-0">
-            <div className="flex items-center justify-between mx-3">
+          <div className="h-auto border border-gray-300 border-l-8 shadow-md rounded-md mx-4 lg:mx-0 mt-2 md:mt-0 lg:mt-2">
+            <div className="flex items-center justify-between mx-3 lg:mb-2">
               <div>
-                 <span className="text-3xl font-bold block mt-2 mb-3">214</span>
+                 <span className="text-3xl font-bold block mt-2 mb-3 lg:mb-1">214</span>
                  <span className="block text-gray-500">Contacts You Have</span>
               </div>
                 <RiContactsLine size="2em"/>  
             </div>
           </div>
 
-          <div className="h-24 border border-gray-300 border-l-8 shadow-md rounded-md mx-4 mt-2">
+          <div className="h-auto border border-gray-300 border-l-8 shadow-md rounded-md mx-4 lg:mx-0 mt-2">
             <div className="flex items-center justify-between mx-3">
               <div>
-                 <span className="text-3xl font-bold block mt-2 mb-3">93</span>
-                 <span className="block text-gray-500">Total Unfinished Task</span>
+                 <span className="text-3xl font-bold block mt-2 mb-3 lg:mb-1">93</span>
+                 <span className="block text-gray-500">Unfinished Task</span>
               </div>
                 <RiPlayListAddLine size="2em"/>  
             </div>
           </div>
 
-          <div className="h-24 border border-gray-300 border-l-8 shadow-md rounded-md mx-4 mt-2">
+          <div className="h-auto border border-gray-300 border-l-8 shadow-md rounded-md mx-4 lg:mx-0 mt-2">
             <div className="flex items-center justify-between mx-3">
               <div>
-                 <span className="text-3xl font-bold block mt-2 mb-3">12</span>
+                 <span className="text-3xl font-bold block mt-2 mb-3 lg:mb-1">12</span>
                  <span className="block text-gray-500">Unread Messages</span>
               </div>
                 <BiMessageSquareDots size="2em"/>  
@@ -66,7 +65,6 @@ const Dashboard = () => {
             <span className="text-lg text-gray-500">last month $563,443</span>
           </div>
           <div >
-            {/* <BarChart/> */}
             chart here
           </div>
         </div>
@@ -86,10 +84,8 @@ const Dashboard = () => {
           </div>
           <div>chart here</div>
         </div>
-        </div>
 
-        <div className="md:grid md:grid-cols-2 md:gap-6 md:mx-6 md:mt-6">
-        <div className="h-auto border border-gray-300 shadow-md rounded-md mx-6 md:mx-0 mt-1 py-2 px-4">
+        <div className="h-auto md:w-auto border border-gray-300 shadow-md rounded-md mx-6 md:mx-0 mt-1 py-2 px-4">
           <div className="flex items-center justify-between">
             <span className="text-black font-semibold text-xl">Project Released</span>
             <div className="flex items-center">
@@ -99,6 +95,14 @@ const Dashboard = () => {
           </div>
           <div>chart here</div>
         </div>  
+
+        <div className="h-auto md:w-auto border border-gray-300 shadow-md rounded-md mx-6 md:mx-0 mt-1 py-2 px-4">
+          <div className="flex items-center justify-between">
+            <span className="text-black font-semibold text-xl">Monthly Target</span>
+            <BiDotsVerticalRounded className="h-7 w-7 text-gray-500"/>
+          </div>
+          <div>chart here</div>
+        </div>
         </div>
 
         <div className="h-auto border border-gray-300 shadow-md rounded-md mx-6 mt-2 py-2 px-4 md:mt-6">
