@@ -1,5 +1,5 @@
 import React from 'react'
-import DashboardLayout from '../../components/dashboard-layout/dashboard-layout'
+import DashboardLayout from '../../components/dashboard-layout/dashboard-layout';
 import { AiOutlineAppstore, AiOutlineCalendar, AiFillThunderbolt } from "react-icons/ai";
 import { BiMessageSquareDots, BiDotsVerticalRounded } from "react-icons/bi";
 import { RiContactsLine, RiPlayListAddLine } from "react-icons/ri";
@@ -88,7 +88,7 @@ const Dashboard = () => {
         <div className="h-auto md:w-auto border border-gray-300 shadow-md rounded-md mx-6 md:mx-0 mt-1 py-2 px-4">
           <div className="flex items-center justify-between">
             <span className="text-black font-semibold text-xl">Project Released</span>
-            <div className="flex items-center">
+            <div className="flex items-center"> 
               <VscTriangleDown className="h-7 w-7 mr-3 text-gray-500"/>
               <h1 className="font-bold text-4xl">7 %</h1>
             </div>
@@ -104,8 +104,9 @@ const Dashboard = () => {
           <div>chart here</div>
         </div>
         </div>
+        
 
-        <div className="h-auto border border-gray-300 shadow-md rounded-md mx-6 mt-2 py-2 px-4 md:mt-6">
+        <div className="h-auto border border-gray-300 shadow-md rounded-md mx-6 mt-2 py-2 px-4 md:mt-6 ">
           <div className="md:flex md:justify-between">
           <span className="block text-black text-2xl lg:text-3xl font-semibold tracking-wide p-2">Recent Messages</span>
           <button className="bg-gradient-to-r from-gray-500 to-gray-600 p-2 ml-2 mt-1 rounded-lg">
