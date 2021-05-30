@@ -7,6 +7,20 @@ const Customers = () => {
         <>
         <DashboardLayout>
         <div className="m-4 py-4 px-6 shadow-sm rounded-lg">
+                <div className="flex justify-between items-center">
+                    <div>
+                        <h2 className="font-semibold text-2xl tracking-wider">Hi, Welcome back</h2>
+                        <p className="text-gray-500 text-lg tracking-wide">Your Mock Web</p>
+                    </div>
+                    <div className="flex">
+                        <span className="text-lg mr-3">Layout</span>
+                        <span className="text-lg text-gray-500 mr-3">/</span>
+                        <span className="text-lg text-gray-500">Blank</span>
+                    </div>
+                </div>
+            </div>
+
+        <div className="m-4 py-4 px-6 shadow-sm rounded-lg">
         <div className="flex flex-col">
       <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
         <div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
