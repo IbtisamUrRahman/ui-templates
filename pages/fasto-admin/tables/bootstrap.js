@@ -1,7 +1,6 @@
 import React from 'react';
 import { BsPencil, BsThreeDots, BsTrash } from 'react-icons/bs';
 import { ImCross } from 'react-icons/im';
-import DashboardLayout from '../../../components/dashboard-layout/dashboard-layout';
 
 const Bootstrap = () => {
     return ( 
