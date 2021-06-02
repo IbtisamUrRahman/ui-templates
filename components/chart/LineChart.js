@@ -11,14 +11,26 @@ const LineChart = () => {
                     label: 'level of thickness',
                     data: [32, 45, 12, 76, 69],
                     backgroundColor: [
-                        'rgb(0, 0, 255)',
-                        'rgb(0, 0, 255)',
-                        'rgb(0, 0, 255)',
-                        'rgb(0, 0, 255)',
-                        'rgb(0, 0, 255)'
+                        'rgb(60, 179, 113)',
+                        'rgb(60, 179, 113)',
+                        'rgb(60, 179, 113)',
+                        'rgb(60, 179, 113)',
+                        'rgb(60, 179, 113)',
+                        'rgb(60, 179, 113)',
                     ],
                 }
-            ]
+            ],
+            options: [
+                {
+                    responsive: false,
+                }
+            ],
+            legend: {
+                labels: {
+                    fontsize: 20,
+                },
+                devicePixelRatio: 10
+            }
         })
     }
 

@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {Doughnut} from 'react-chartjs-2';
+import styles from '../chart/chart.module.css';
 
 const DoughnutChart = () => {
     const [chartData, setChartData] = useState({})
@@ -28,7 +29,17 @@ const DoughnutChart = () => {
                     ],
                     borderWidth: 2
                 }
-            ]
+            ],
+            options: [
+                {
+                    responsive: false,
+                }
+            ],
+            legend: {
+                labels: {
+                    fontsize: 20,
+                }
+            }
         })
     }
 
@@ -37,9 +48,7 @@ const DoughnutChart = () => {
     }, [])
     return ( 
         <div>
-            <Doughnut data={chartData} options={{
-                responsive: true
-            }}/>
+            <Doughnut id="chart" className={styles.chart} data={chartData}/>
         </div>
      );
 }

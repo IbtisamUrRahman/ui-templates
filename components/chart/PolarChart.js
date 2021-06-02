@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
-import {Radar} from 'react-chartjs-2';
+import {Polar} from 'react-chartjs-2';
 
-const RadarChart = () => {
+const PolarChart = () => {
     const [chartData, setChartData] = useState({})
     const chart = () => {
         setChartData ({
@@ -30,11 +30,6 @@ const RadarChart = () => {
                     ],
                 }
             ],
-            options: [
-                {
-                    responsive: false,
-                }
-            ],
             legend: {
                 labels: {
                     fontsize: 20,
@@ -48,8 +43,8 @@ const RadarChart = () => {
         chart()
     }, [])
     return ( 
-        <Radar data={chartData} height={400} width={900}/>
+        <Polar data={chartData} height={400} width={900}/>
      );
 }
  
-export default RadarChart;
+export default PolarChart;

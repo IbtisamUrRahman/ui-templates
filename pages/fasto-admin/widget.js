@@ -549,7 +549,7 @@ const Widget = () => {
           </tr>
           <tr>
               <div className="flex items-center justify-between">
-                <td class="px-4 py-3">Designationt</td>
+                <td class="px-4 py-3">Designation</td>
                 <td class="px-4 py-3">Professor</td>
               </div>
           </tr>
@@ -563,7 +563,11 @@ const Widget = () => {
     </div>
            </div>
 
-           <div className="col-span-2"><BarChart/></div>
+           <div className="col-span-2">
+             <div className="max-h-full">
+               <BarChart/>
+               </div>
+            </div>
        </div>
 
        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
@@ -670,17 +674,17 @@ const Widget = () => {
        </div>
 
        <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
-         <div className="h-auto m-4 lg:m-2 p-4 shadow-md rounded-md">
+         <div className="h-auto bg-green-100 m-4 lg:m-2 p-4 shadow-md rounded-md">
            <div>
-             <h1 className="text-2xl font-medium text-gray-900">MARKET NOW</h1>
-             <h1 className="text-2xl font-medium text-red-800">345667</h1>
+             <h1 className="text-2xl font-medium text-green-600">MARKET NOW</h1>
+             <h1 className="text-2xl font-medium text-green-600">345667</h1>
              <div><SimpleBarChart/></div>
            </div>
          </div>
-         <div className="h-auto m-4 lg:m-2 p-4 shadow-md rounded-md">
+         <div className="h-auto bg-green-100 m-4 lg:m-2 p-4 shadow-md rounded-md">
            <div>
-             <h1 className="text-2xl font-medium text-gray-900">SALES ANALYSIS</h1>
-             <h1 className="text-2xl font-medium text-red-800">345667</h1>
+             <h1 className="text-2xl font-medium text-green-600">SALES ANALYSIS</h1>
+             <h1 className="text-2xl font-medium text-green-600">345667</h1>
              <div><LineChart/></div>
            </div>
          </div>
@@ -728,9 +732,12 @@ const Widget = () => {
             </svg>
         </div> 
     </div>
-    <div className="w-full">
+    <div className="flex justify-center align-middle">
+      <div className="w-1/2 ">
       <RadarChart/>
+      </div>
     </div>
+    
 </div>
        </div>
         

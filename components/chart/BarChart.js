@@ -21,7 +21,17 @@ const LineChart = () => {
                    
                     
                 }
-            ]
+            ],
+            options: [
+                {
+                    responsive: false,
+                }
+            ],
+            legend: {
+                labels: {
+                    fontsize: 20,
+                }
+            }
         })
     }
 

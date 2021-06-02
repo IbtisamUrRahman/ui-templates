@@ -11,13 +11,25 @@ const SimpleBarChart = () => {
                     label: 'level of thickness',
                     data: [32, 45, 12, 76, 69],
                     backgroundColor: [
-                        'rgb(106, 90, 205)',
-                        'rgb(106, 90, 205)',
-                        'rgb(106, 90, 205)',
-                        'rgb(106, 90, 205)',
+                        'rgb(60, 179, 113)',
+                        'rgb(60, 179, 113)',
+                        'rgb(60, 179, 113)',
+                        'rgb(60, 179, 113)',
+                        'rgb(60, 179, 113)',
+                        'rgb(60, 179, 113)',
                     ],
                 }
-            ]
+            ],
+            options: [
+                {
+                    responsive: false,
+                }
+            ],
+            legend: {
+                labels: {
+                    fontsize: 20,
+                }
+            }
         })
     }
 
