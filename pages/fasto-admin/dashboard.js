@@ -1,5 +1,6 @@
 import React from 'react'
 import DashboardLayout from '../../components/dashboard-layout/dashboard-layout';
+import BarChart from '../../components/chart/BarChart';
 import { AiOutlineAppstore, AiOutlineCalendar, AiFillThunderbolt } from "react-icons/ai";
 import { BiMessageSquareDots, BiDotsVerticalRounded } from "react-icons/bi";
 import { RiContactsLine, RiPlayListAddLine } from "react-icons/ri";
@@ -65,7 +66,7 @@ const Dashboard = () => {
             <span className="text-lg text-gray-500">last month $563,443</span>
           </div>
           <div >
-            chart here
+            <BarChart/>
           </div>
         </div>
 

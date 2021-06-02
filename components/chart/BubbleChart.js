@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
-import {Line} from 'react-chartjs-2';
+import {Radar} from 'react-chartjs-2';
 
-const LineChart = () => {
+const RadarChart = () => {
     const [chartData, setChartData] = useState({})
     const chart = () => {
         setChartData ({
@@ -26,8 +26,8 @@ const LineChart = () => {
         chart()
     }, [])
     return ( 
-        <Line data={chartData} height={400} width={900}/>
+        <Radar data={chartData} height={400} width={900}/>
      );
 }
  
-export default LineChart;
+export default RadarChart;

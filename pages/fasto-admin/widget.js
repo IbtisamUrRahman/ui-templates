@@ -1,7 +1,12 @@
 import React from 'react';
 import DashboardLayout from '../../components/dashboard-layout/dashboard-layout';
-import LineChart from '../../components/chart/LineChart';
+import BarChart from '../../components/chart/BarChart';
 import DoughnutChart from '../../components/chart/DoughnutChart';
+import SimpleBarChart from '../../components/chart/SimpleBarChart';
+import LineChart from '../../components/chart/LineChart';
+import RadarChart from '../../components/chart/BubbleChart';
+import Footer from '../../components/Footer';
+
 const Widget = () => {
     return ( 
         <>
@@ -558,10 +563,10 @@ const Widget = () => {
     </div>
            </div>
 
-           <div className="col-span-2"><LineChart className="h-auto font-medium text-lg w-2/3"/></div>
+           <div className="col-span-2"><BarChart/></div>
        </div>
 
-       <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-6">
+       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
            <div className="h-auto m-4 lg:m-2 p-4 shadow-md rounded-md">
            <div className="w-full mx-auto">
                    <img className="h-32 w-32 mx-auto rounded-full object-cover" src="https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YWR1bHQlMjBib3l8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60"></img>
@@ -588,7 +593,7 @@ const Widget = () => {
              <div className="p-4 mx-auto flex justify-between items-center"><sapn className="text-2xl">Age</sapn><span className="text-gray-500 block">24 Y/O</span></div>
          </div>
            </div>
-           <div className="2xl:col-span-2"><DoughnutChart className=""/></div>
+           <div><DoughnutChart className=""/></div>
        </div>
         
        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-x-6 gap-y-6">
@@ -663,7 +668,73 @@ const Widget = () => {
                 </div>
            </div>
        </div>
+
+       <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
+         <div className="h-auto m-4 lg:m-2 p-4 shadow-md rounded-md">
+           <div>
+             <h1 className="text-2xl font-medium text-gray-900">MARKET NOW</h1>
+             <h1 className="text-2xl font-medium text-red-800">345667</h1>
+             <div><SimpleBarChart/></div>
+           </div>
+         </div>
+         <div className="h-auto m-4 lg:m-2 p-4 shadow-md rounded-md">
+           <div>
+             <h1 className="text-2xl font-medium text-gray-900">SALES ANALYSIS</h1>
+             <h1 className="text-2xl font-medium text-red-800">345667</h1>
+             <div><LineChart/></div>
+           </div>
+         </div>
+       </div>
+       <div className="grid grid-cols-1 gap-6">
+       <div className="h-auto m-4 lg:m-2 p-4 rounded-lg shadow-md divide-y divide-gray-300">
+    <h1 className="px-5 pb-3 text-xl font-medium">Notification</h1>
+    <div className="p-5 flex items-center justify-between">
+        <img className="h-12 w-12 object-cover rounded-lg" src="https://images.unsplash.com/photo-1556474835-b0f3ac40d4d1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fG1hbGUlMjBwcm9maWxlJTIwcGljdHVyZXxlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60"></img>
+        <div className="w-1/2 ml-4">
+            <span className="text-gray-900 font-medium block">Dr sultan send a photo.</span>
+            <span className="block text-gray-500">29th july 2020 - 02:36 PM</span>
+        </div>
+        <div class="ml-20 flex-shrink-0 w-8 h-8 rounded-full bg-green-100 inline-flex items-center justify-center text-green-800 relative z-10">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
+            </svg>
+        </div> 
+    </div>
+    <div className="p-5 flex items-center justify-between">
+        <img className="h-12 w-12 object-cover rounded-lg" src="https://images.unsplash.com/photo-1556474835-b0f3ac40d4d1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fG1hbGUlMjBwcm9maWxlJTIwcGljdHVyZXxlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60"></img>
+        <div className="w-1/2 ml-4">
+            <span className="text-gray-900 font-medium block">Report created succesfully.</span>
+            <span className="block text-gray-500">29th july 2020 - 02:36 PM</span>
+        </div>
+        <div class="ml-20 flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 inline-flex items-center justify-center text-blue-800 relative z-10">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
+            </svg>
+        </div> 
+    </div>
+    <div className="p-5 flex items-center justify-between">
+        <div class="flex-shrink-0 w-12 h-12 rounded-lg bg-yellow-100 inline-flex items-center justify-center text-yellow-800 relative z-10">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+        </svg>
+        </div>        
+         <div className="w-1/2 ml-4">
+            <span className="text-gray-900 font-medium block">Report created succesfully.</span>
+            <span className="block text-gray-500">29th july 2020 - 02:36 PM</span>
+        </div>
+        <div class="ml-20 flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 inline-flex items-center justify-center text-blue-800 relative z-10">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
+            </svg>
+        </div> 
+    </div>
+    <div className="w-full">
+      <RadarChart/>
+    </div>
+</div>
+       </div>
         
+        <Footer/>
         </DashboardLayout>
         </>
      );

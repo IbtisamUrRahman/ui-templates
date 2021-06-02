@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
-import {Line} from 'react-chartjs-2';
+import {Bar} from 'react-chartjs-2';
 
-const LineChart = () => {
+const SimpleBarChart = () => {
     const [chartData, setChartData] = useState({})
     const chart = () => {
         setChartData ({
@@ -11,11 +11,10 @@ const LineChart = () => {
                     label: 'level of thickness',
                     data: [32, 45, 12, 76, 69],
                     backgroundColor: [
-                        'rgb(0, 0, 255)',
-                        'rgb(0, 0, 255)',
-                        'rgb(0, 0, 255)',
-                        'rgb(0, 0, 255)',
-                        'rgb(0, 0, 255)'
+                        'rgb(106, 90, 205)',
+                        'rgb(106, 90, 205)',
+                        'rgb(106, 90, 205)',
+                        'rgb(106, 90, 205)',
                     ],
                 }
             ]
@@ -26,8 +25,8 @@ const LineChart = () => {
         chart()
     }, [])
     return ( 
-        <Line data={chartData} height={400} width={900}/>
+        <Bar data={chartData} height={400} width={900}/>
      );
 }
  
-export default LineChart;
+export default SimpleBarChart;

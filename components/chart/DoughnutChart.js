@@ -1,49 +1,45 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import {Doughnut} from 'react-chartjs-2';
 
 const DoughnutChart = () => {
-    const data = {
-        labels: ['jan', 'feb', 'march', 'april', 'may'],
-        datasets: [
-            {
-                label: 'Sales for 2021 (M)',
-                data: [3, 2, 2, 1, 2],
-                borderColor: ['rgba(54, 162, 235, 0.2)'],
-                backgroundColor: ['rgba(54, 162, 235, 0.2)'],
-                pointBackgroundColor: ['rgba(54, 162, 235, 0.2)'],
-                pointBorderColor: ['rgba(54, 162, 235, 0.2)'],
-            },
-            {
-                label: 'Sales for 2020 (M)',
-                data: [1, 2, 4, 3, 6],
-                borderColor: ['rgba(255, 206, 86, 0.2)'],
-                backgroundColor: ['rgba(255, 206, 86, 0.2)'],
-                pointBackgroundColor: ['rgba(255, 206, 86, 0.2)'],
-                pointBorderColor: ['rgba(255, 206, 86, 0.2)'],
-            }
-        ]
-    }
-    const options = {
-        title: {
-            display: true,
-            text: 'Visitor Activity',
-            fontSize: 25
-        },
-        scales: {
-            yAxes: [
+    const [chartData, setChartData] = useState({})
+    const chart = () => {
+        setChartData ({
+            labels: ['monday', 'tuesday', 'wednesday', 'thursday', 'friday'],
+            datasets: [
                 {
-                    ticks: {
-                        min: 0,
-                        max: 7,
-                        stepSize: 1
-                    }
+                    label: 'level of thickness',
+                    data: [32, 45, 12, 76, 69],
+                    backgroundColor: [
+                        'rgba(255, 99, 132, 0.2)',
+                        'rgba(54, 162, 235, 0.2)',
+                        'rgba(255, 206, 86, 0.2)',
+                        'rgba(75, 192, 192, 0.2)',
+                        'rgba(153, 102, 255, 0.2)',
+                        'rgba(255, 159, 64, 0.2)'
+                    ],
+                    borderColor: [
+                        'rgba(255, 99, 132, 1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 206, 86, 1)',
+                        'rgba(75, 192, 192, 1)',
+                        'rgba(153, 102, 255, 1)',
+                        'rgba(255, 159, 64, 1)'
+                    ],
+                    borderWidth: 2
                 }
             ]
-        }
+        })
     }
+
+    useEffect (() => {
+        chart()
+    }, [])
     return ( 
         <div>
-            <Doughnut data={data} options={options}/>
+            <Doughnut data={chartData} options={{
+                responsive: true
+            }}/>
         </div>
      );
 }

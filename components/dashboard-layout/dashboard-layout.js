@@ -9,44 +9,86 @@ class="hidden lg:block w-64 bg-gray-100 border-r  px-8 py-4 overflow-auto"
 >
 <svg class="h-4 w-4 " xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M12 1.586l-4 4v12.828l4-4V1.586zM3.707 3.293A1 1 0 002 4v10a1 1 0 00.293.707L6 18.414V5.586L3.707 3.293zM17.707 5.293L14 1.586v12.828l2.293 2.293A1 1 0 0018 16V6a1 1 0 00-.293-.707z" clip-rule="evenodd" /></svg>
 <nav class="mt-8">
-  <h3 class="text-sm font-semibold text-gray-600 uppercase tracking-wide mb-2">Issues</h3>
   <div class="mt-2 -mx-3">
     <a href="#" class="flex justify-between items-center bg-gray-200 rounded-lg px-3 py-2">
-      <span class="text-sm font-medium text-gray-900">All</span>
-      <span class="text-sm text-gray-700 font-semibold">36 </span>
+      <span class="text-sm font-medium text-gray-900">Dashboard</span>
+      <svg className="text-gray-600 h-4 w-4" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+        <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+      </svg>
+    </a>
+    <div className="ml-10">
+      <span className="font-medium text-xs text-gray-600 block">Project</span>
+      <span className="font-medium text-xs text-gray-600 block mt-2">Contact</span>
+      <span className="font-medium text-xs text-gray-600 block mt-2">Messages</span>
+      <span className="font-medium text-xs text-gray-600 block mt-2">Kanban</span>
+    </div>
+    <a href="#" class="flex justify-between items-center rounded-lg px-3 py-2">
+      <span class="text-sm font-medium text-gray-600">Apps</span>
     </a>
     <a href="#" class="flex justify-between items-center rounded-lg px-3 py-2">
-      <span class="text-sm font-medium text-gray-600">Assigned to me</span>
-      <span class="text-sm text-gray-600 font-semibold">2 </span>
+      <span class="text-sm font-medium text-gray-600">Email</span>
+      <svg className="h-4 w-4 text-gray-600" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+        <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+      </svg>
+    </a>
+    <div className="ml-10">
+      <span className="font-medium text-xs text-gray-600 block">Compose</span>
+      <span className="font-medium text-xs text-gray-600 block mt-2">Inbox</span>
+      <span className="font-medium text-xs text-gray-600 block mt-2">Read</span>
+    </div>
+    <a href="#" class="flex justify-between items-center rounded-lg px-3 py-2">
+      <span class="text-sm font-medium text-gray-600">Shop</span>
+      <svg className="text-gray-600 h-4 w-4" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+        <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+      </svg>
+    </a>
+    <div className="ml-10">
+      <span className="font-medium text-xs text-gray-600 block">Product Grid</span>
+      <span className="font-medium text-xs text-gray-600 block mt-2">Product List</span>
+      <span className="font-medium text-xs text-gray-600 block mt-2">Product Detail</span>
+      <span className="font-medium text-xs text-gray-600 block mt-2">Order</span>
+      <span className="font-medium text-xs text-gray-600 block mt-2">Checkout</span>
+      <span className="font-medium text-xs text-gray-600 block mt-2">Invoice</span>
+      <span className="font-medium text-xs text-gray-600 block mt-2">Customers</span>
+
+    </div>
+    <a href="#" class="flex justify-between items-center rounded-lg px-3 py-2">
+      <span class="text-sm font-medium text-gray-600">Widget</span>
     </a>
     <a href="#" class="flex justify-between items-center rounded-lg px-3 py-2">
-      <span class="text-sm font-medium text-gray-600">Created by me</span>
-      <span class="text-sm text-gray-600 font-semibold">4 </span>
+      <span class="text-sm font-medium text-gray-600">Forms</span>
+      <svg className="text-gray-600 h-4 w-4" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+        <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+      </svg>
     </a>
+    <div className="ml-10">
+      <span className="font-medium text-xs text-gray-600 block">Wizard</span>
+    </div>
     <a href="#" class="flex justify-between items-center rounded-lg px-3 py-2">
-      <span class={`text-sm font-medium ${styles['dark-gray-temp']}`}>Archived</span>
-      <span class="text-sm text-gray-600 font-semibold"></span>
+      <span class="text-sm font-medium text-gray-600">Pages</span>
+      <svg className="text-gray-600 h-4 w-4" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+        <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+      </svg>
     </a>
+    <div className="ml-10">
+      <span className="font-medium text-xs text-gray-600 block">Register</span>
+      <span className="font-medium text-xs text-gray-600 block mt-2">Login</span>
+      <span className="font-medium text-xs text-gray-600 block mt-2">Lockscreen</span>
+      <span className="font-medium text-xs text-gray-600 block mt-2">Error</span>
+    </div>
+    <a href="#" class="flex justify-between items-center rounded-lg px-3 py-2">
+      <span class="text-sm font-medium text-gray-600">Tables</span>
+      <svg className="text-gray-600 w-4 h-4" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+        <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+      </svg>
+    </a>
+    <div className="ml-10">
+      <span className="font-medium text-xs text-gray-600 block">Bootstrap table</span>
+      <span className="font-medium text-xs text-gray-600 block mt-2">Datatable</span>
+    </div>
   </div>
   {/* <!-- second part --> */}
-  <h3 class="mt-8 text-sm font-semibold text-gray-600 uppercase tracking-wide mb-2">Tags</h3>
-  <div class="mt-2 -mx-3">
-    <a href="#" class="flex justify-between items-center rounded-lg px-3 py-2">
-      <span class="text-sm font-medium text-gray-600">Bug</span>
-    </a>
-    <a href="#" class="flex justify-between items-center rounded-lg px-3 py-2">
-      <span class="text-sm font-medium text-gray-600">Feature request</span>
-    </a>
-    <a href="#" class="flex justify-between items-center rounded-lg px-3 py-2">
-      <span class="text-sm font-medium text-gray-600">Marketing</span>
-    </a>
-    <a href="#" class="flex justify-between items-center rounded-lg px-3 py-2">
-      <span class="text-sm font-medium text-gray-600">Enhancement</span>
-    </a>
-    <a href="#" class="flex justify-between items-center rounded-lg px-3 py-2">
-      <span class="text-sm font-medium text-gray-600">Design</span>
-    </a>
-  </div>
+ 
   <button class="flex items-center text-sm font-medium text-gray-60 mt-2 hover:bg-gray-300 px-2 py-2 rounded">
     <svg class="text-gray-500" width="22" height="22" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
@@ -196,6 +238,8 @@ class="hidden lg:block w-64 bg-gray-100 border-r  px-8 py-4 overflow-auto"
  
 </div>
 </div>
+
+
       </>
    );
 }
