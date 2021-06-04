@@ -5,7 +5,7 @@ const DashboardLayout = ({children}) => {
       <>
       <div id="app" class="h-screen flex">
 <div
-class="hidden lg:block w-64 bg-gray-100 border-r  px-8 py-4 overflow-auto"
+class="hidden lg:block h-full w-64 bg-gray-100 border-r  px-8 py-4 fixed top-0  overflow-y-auto"
 >
 <svg class="h-4 w-4 " xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M12 1.586l-4 4v12.828l4-4V1.586zM3.707 3.293A1 1 0 002 4v10a1 1 0 00.293.707L6 18.414V5.586L3.707 3.293zM17.707 5.293L14 1.586v12.828l2.293 2.293A1 1 0 0018 16V6a1 1 0 00-.293-.707z" clip-rule="evenodd" /></svg>
 <nav class="mt-8">
@@ -103,6 +103,7 @@ class="hidden lg:block w-64 bg-gray-100 border-r  px-8 py-4 overflow-auto"
   </button>
 </nav>
 </div>
+<div className="w-1/6 -ml-6"></div>
 
 {/* <!-- side bar ends --> */}
 
@@ -237,6 +238,7 @@ class="hidden lg:block w-64 bg-gray-100 border-r  px-8 py-4 overflow-auto"
 {children}
  
 </div>
+<div></div>
 </div>
 
 
