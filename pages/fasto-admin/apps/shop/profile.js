@@ -1,5 +1,5 @@
 import React from 'react';
-import DashboardLayout from '../../../components/dashboard-layout/dashboard-layout';
+import DashboardLayout from '../../../../components/dashboard-layout/dashboard-layout';
 import {  BiImage,BiDotsVerticalRounded } from "react-icons/bi";
 import { AiOutlinePaperClip, AiTwotoneHeart } from "react-icons/ai";
 import { FaReply } from "react-icons/fa";

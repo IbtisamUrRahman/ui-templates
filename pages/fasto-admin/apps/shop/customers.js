@@ -1,5 +1,5 @@
 import React from 'react';
-import DashboardLayout from '../../../components/dashboard-layout/dashboard-layout';
+import DashboardLayout from '../../../../components/dashboard-layout/dashboard-layout';
 import {BsThreeDots} from 'react-icons/bs';
 
 const Customers = () => {

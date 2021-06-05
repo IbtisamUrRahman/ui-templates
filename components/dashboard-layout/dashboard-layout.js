@@ -1,5 +1,5 @@
 import styles from "./dashboard-layout.module.css"
-import {Link} from 'next/link';
+import Link from 'next/link';
 
 const DashboardLayout = ({children}) => {
  
@@ -13,16 +13,16 @@ class="hidden lg:block h-full w-64 bg-gray-100 border-r overflow-hidden  px-8 py
 <nav class="mt-8">
   <div class="mt-2 -mx-3">
     <a href="#" class="flex justify-between items-center bg-gray-200 rounded-lg px-3 py-2">
-      <span class="text-sm font-medium text-gray-900">Dashboard</span>
-      <svg className="text-gray-600 h-4 w-4" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+      <Link href="/fasto-admin/dashboard"><span class="text-sm font-medium text-gray-900 cursor-pointer">Dashboard</span></Link>
+      <svg className="h-4 w-4 text-gray-600" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
         <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
       </svg>
     </a>
     <div className="ml-10">
-      <Link href="/projects"><a><span className="font-medium text-xs text-gray-600 block">projects</span></a></Link> 
-      <span className="font-medium text-xs text-gray-600 block mt-2">Contact</span>
-      <span className="font-medium text-xs text-gray-600 block mt-2">Messages</span>
-      <span className="font-medium text-xs text-gray-600 block mt-2">Kanban</span>
+      <Link href="/fasto-admin/projects"><span className="font-medium text-xs text-gray-600 cursor-pointer block">Projects</span></Link> 
+      <Link href="/fasto-admin/Contacts"><span className="font-medium text-xs text-gray-600 cursor-pointer block mt-2">Contact</span></Link>
+      <Link href="/fasto-admin/messages"><span className="font-medium text-xs text-gray-600 cursor-pointer block mt-2">Messages</span></Link>
+      <Link href="/fasto-admin/kanban"><span className="font-medium text-xs text-gray-600 cursor-pointer block mt-2">Kanban</span></Link>
     </div>
     <a href="#" class="flex justify-between items-center rounded-lg px-3 py-2">
       <span class="text-sm font-medium text-gray-600">Apps</span>
@@ -34,59 +34,59 @@ class="hidden lg:block h-full w-64 bg-gray-100 border-r overflow-hidden  px-8 py
       </svg>
     </a>
     <div className="ml-10">
-      <span className="font-medium text-xs text-gray-600 block">Compose</span>
-      <span className="font-medium text-xs text-gray-600 block mt-2">Inbox</span>
-      <span className="font-medium text-xs text-gray-600 block mt-2">Read</span>
+      <Link href="/fasto-admin/apps/email/compose"><span className="font-medium text-xs text-gray-600 cursor-pointer block">Compose</span></Link>
+      <Link href="/fasto-admin/apps/email/inbox"><span className="font-medium text-xs text-gray-600 block cursor-pointer mt-2">Inbox</span></Link>
+      <Link href="/fasto-admin/apps/email/read"><span className="font-medium text-xs text-gray-600 block cursor-pointer mt-2">Read</span></Link>
     </div>
     <a href="#" class="flex justify-between items-center rounded-lg px-3 py-2">
       <span class="text-sm font-medium text-gray-600">Shop</span>
-      <svg className="text-gray-600 h-4 w-4" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+      <svg className="h-4 w-4 text-gray-600" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
         <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
       </svg>
     </a>
     <div className="ml-10">
-      <span className="font-medium text-xs text-gray-600 block">Product Grid</span>
-      <span className="font-medium text-xs text-gray-600 block mt-2">Product List</span>
-      <span className="font-medium text-xs text-gray-600 block mt-2">Product Detail</span>
-      <span className="font-medium text-xs text-gray-600 block mt-2">Order</span>
-      <span className="font-medium text-xs text-gray-600 block mt-2">Checkout</span>
-      <span className="font-medium text-xs text-gray-600 block mt-2">Invoice</span>
-      <span className="font-medium text-xs text-gray-600 block mt-2">Customers</span>
-
+      <Link href="/fasto-admin/apps/shop/profile"><span className="font-medium text-xs text-gray-600 cursor-pointer block mt-2">Profile</span></Link>
+      <Link href="/fasto-admin/apps/shop/shop-product-grid"><span className="font-medium text-xs text-gray-600 cursor-pointer block mt-2">Product Grid</span></Link>
+      <Link href="/fasto-admin/apps/shop/shop-product-list"><span className="font-medium text-xs text-gray-600 cursor-pointer block mt-2">Product List</span></Link>
+      <Link href="/fasto-admin/apps/shop/shop-product-details"><span className="font-medium text-xs text-gray-600 cursor-pointer block mt-2">Product Details</span></Link>
+      <Link href="/fasto-admin/apps/shop/orders"><span className="font-medium text-xs text-gray-600 cursor-pointer block mt-2">Orders</span></Link>
+      <Link href="/fasto-admin/apps/shop/checkout"><span className="font-medium text-xs text-gray-600 cursor-pointer block mt-2">Checkout</span></Link>
+      <Link href="/fasto-admin/apps/shop/invoice"><span className="font-medium text-xs text-gray-600 cursor-pointer block mt-2">Invoice</span></Link>
+      <Link href="/fasto-admin/apps/shop/customers"><span className="font-medium text-xs text-gray-600 cursor-pointer block mt-2">Customers</span></Link>
     </div>
     <a href="#" class="flex justify-between items-center rounded-lg px-3 py-2">
-      <span class="text-sm font-medium text-gray-600">Widget</span>
+      <Link href="/fasto-admin/widget"><span class="text-sm font-medium cursor-pointer text-gray-600">Widget</span></Link>
     </a>
     <a href="#" class="flex justify-between items-center rounded-lg px-3 py-2">
       <span class="text-sm font-medium text-gray-600">Forms</span>
-      <svg className="text-gray-600 h-4 w-4" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+      <svg className="h-4 w-4 text-gray-600" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
         <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
       </svg>
     </a>
     <div className="ml-10">
-      <span className="font-medium text-xs text-gray-600 block">Wizard</span>
+     <Link href="/fasto-admin/form-wizard"><span className="font-medium text-xs text-gray-600 cursor-pointer block">Wizard</span></Link> 
     </div>
     <a href="#" class="flex justify-between items-center rounded-lg px-3 py-2">
       <span class="text-sm font-medium text-gray-600">Pages</span>
-      <svg className="text-gray-600 h-4 w-4" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+      <svg className="h-4 w-4 text-gray-600" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
         <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
       </svg>
     </a>
     <div className="ml-10">
-      <span className="font-medium text-xs text-gray-600 block">Register</span>
-      <span className="font-medium text-xs text-gray-600 block mt-2">Login</span>
-      <span className="font-medium text-xs text-gray-600 block mt-2">Lockscreen</span>
-      <span className="font-medium text-xs text-gray-600 block mt-2">Error</span>
+     <Link href="/fasto-admin/pages/register"><span className="font-medium text-xs text-gray-600 cursor-pointer block">Register</span></Link> 
+      <Link href="/fasto-admin/pages/login"><span className="font-medium text-xs text-gray-600 cursor-pointer block mt-2">Login</span></Link>
+      <Link href="/fasto-admin/pages/lockscreen"><span className="font-medium text-xs text-gray-600 cursor-pointer block mt-2">Lockscreen</span></Link>
+      <Link href="/fasto-admin/pages/error"><span className="font-medium text-xs text-gray-600 cursor-pointer block mt-2">Error</span></Link>
     </div>
     <a href="#" class="flex justify-between items-center rounded-lg px-3 py-2">
       <span class="text-sm font-medium text-gray-600">Tables</span>
-      <svg className="text-gray-600 w-4 h-4" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+      <svg className="h-4 w-4 text-gray-600" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
         <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
       </svg>
     </a>
     <div className="ml-10">
-      <span className="font-medium text-xs text-gray-600 block">Bootstrap table</span>
-      <span className="font-medium text-xs text-gray-600 block mt-2">Datatable</span>
+     <Link href="/fasto-admin/tables/bootstrap"><span className="font-medium text-xs text-gray-600 cursor-pointer block">Bootstrap table</span></Link> 
+     <Link href="/fasto-admin/tables/datatables"><span className="font-medium text-xs text-gray-600 cursor-pointer block mt-2">Datatable</span></Link>
     </div>
   </div>
   {/* <!-- second part --> */}
