@@ -39,7 +39,7 @@ const Contacts = () => {
 
             {/* <!-- contact list --> */}
 
-            <div className="h-auto m-4 p-4 grid gap-x-4 gap-y-8 grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
+            <div className="h-auto m-4 p-4 grid gap-x-4 gap-y-8 grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 3xl:grid-cols-8">
                 <div className="w-48 px-6 py-4 border border-gray-500 rounded-lg shadow-md mx-auto">
                    <img className="h-14 w-14 mx-auto rounded-full object-cover" src="https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YWR1bHQlMjBib3l8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60"></img>
                    <span className="block text-center mt-2">Alan Green</span>

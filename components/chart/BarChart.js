@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react';
+import styles from "./BarChart.module.css";
 import {Bar} from 'react-chartjs-2';
 
 const LineChart = () => {
@@ -22,11 +23,16 @@ const LineChart = () => {
                     
                 }
             ],
-            options: [
-                {
+            options:  {
                     responsive: false,
-                }
-            ],
+                    layout: {
+                        padding: {
+                            left: 100,
+                            right: 100,
+                        }
+                    }
+                },
+            
             legend: {
                 labels: {
                     fontsize: 20,
@@ -39,7 +45,10 @@ const LineChart = () => {
         chart()
     }, [])
     return ( 
-        <Bar data={chartData} height={400} width={900}/>
+        // <canvas data={chartData} className={`${styles['chart']}`}></canvas>
+       
+            <Bar data={chartData} className={`${styles['Barchart']}`}/>
+      
      );
 }
  

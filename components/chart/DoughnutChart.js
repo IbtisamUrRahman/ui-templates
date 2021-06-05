@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from 'react';
 import {Doughnut} from 'react-chartjs-2';
-import styles from '../chart/chart.module.css';
 
 const DoughnutChart = () => {
     const [chartData, setChartData] = useState({})
@@ -48,7 +47,9 @@ const DoughnutChart = () => {
     }, [])
     return ( 
         <div>
-            <Doughnut id="chart" className={styles.chart} data={chartData}/>
+            
+            <Doughnut className={`${chart}`} data={chartData}/>
+           
         </div>
      );
 }
