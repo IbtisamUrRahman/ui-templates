@@ -1,54 +1,51 @@
-import React, {useEffect, useState} from 'react';
-import styles from "./BarChart.module.css";
 import {Bar} from 'react-chartjs-2';
 
 const LineChart = () => {
-    const [chartData, setChartData] = useState({})
-    const chart = () => {
-        setChartData ({
-            labels: ['monday', 'tuesday', 'wednesday', 'thursday', 'friday'],
-            datasets: [
-                {
-                    label: 'level of thickness',
-                    data: [32, 45, 12, 76, 69],
-                    backgroundColor: [
-                        'rgb(60, 179, 113)',
-                        'rgb(60, 179, 113)',
-                        'rgb(60, 179, 113)',
-                        'rgb(60, 179, 113)',
-                        'rgb(60, 179, 113)',
-                        'rgb(60, 179, 113)',
-                    ],
-                   
-                    
-                }
-            ],
-            options:  {
-                    responsive: false,
-                    layout: {
-                        padding: {
-                            left: 100,
-                            right: 100,
+    return ( 
+        <>
+        <Bar 
+        data={{
+            labels: ['06', '07', '08', '09', '10', '11','12', '13', '14', '15','16', '17', '18'],
+            datasets: [{
+                label: 'New Clients',
+                data: [300,400,450,600,350,300,400,450,600,350,400,450,600,350],
+                backgroundColor:  'rgba(77, 175, 124, 1)',
+                barThickness: 20,
+                borderRadius: 12,
+            }]
+        }}
+
+        options={{
+            plugins: {
+                tooltips: {
+                    callbacks: {
+                        label: function(toolTipItem){
+                            return (toolTipItem.value + "K")
                         }
                     }
                 },
-            
-            legend: {
-                labels: {
-                    fontsize: 20,
+                title: {
+                    display: false,
+                    text: 'Custom Chart Title'
                 }
+            },
+            scales: {
+                yAxes: [
+                    {
+                        gridLines: {
+                          color: ' white',
+                        },
+                        ticks: {
+                            beginAtzero: true
+                        }
+                    }
+                ]
             }
-        })
-    }
+        }}
+        >
 
-    useEffect (() => {
-        chart()
-    }, [])
-    return ( 
-        // <canvas data={chartData} className={`${styles['chart']}`}></canvas>
-       
-            <Bar data={chartData} className={`${styles['Barchart']}`}/>
-      
+        </Bar>
+        </>
      );
 }
  

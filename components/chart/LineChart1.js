@@ -1,15 +1,17 @@
 import React, {useEffect, useState} from 'react';
 import {Line} from 'react-chartjs-2';
 
-const LineChart = () => {
+const LineChart1 = () => {
     const [chartData, setChartData] = useState({})
     const chart = () => {
         setChartData ({
-            labels: ['monday', 'tuesday', 'wednesday', 'thursday', 'friday'],
+            labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May'],
+            title: {
+                display: false,
+            },
             datasets: [
                 {
-                    label: 'level of thickness',
-                    data: [32, 45, 12, 76, 69],
+                    data: [32, 45, 25, 76, 69],
                     backgroundColor: [
                         'rgb(60, 179, 113)',
                         'rgb(60, 179, 113)',
@@ -18,7 +20,8 @@ const LineChart = () => {
                         'rgb(60, 179, 113)',
                         'rgb(60, 179, 113)',
                     ],
-                    fill: true,
+                    borderRadius: 10,
+                  
                 }
             ],
             options: [
@@ -30,7 +33,7 @@ const LineChart = () => {
                 labels: {
                     fontsize: 20,
                 },
-                devicePixelRatio: 10
+              
             }
         })
     }
@@ -39,8 +42,8 @@ const LineChart = () => {
         chart()
     }, [])
     return ( 
-        <Line data={chartData} height={400} width={900}/>
+        <Line data={chartData} height={200} width={400}/>
      );
 }
  
-export default LineChart;
+export default LineChart1;

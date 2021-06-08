@@ -565,7 +565,7 @@ const Widget = () => {
 
            <div className="col-span-2">
              
-               <BarChart/>
+               <BarChart className="h-full"/>
               
             </div>
        </div>

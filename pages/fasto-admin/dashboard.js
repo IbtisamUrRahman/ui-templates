@@ -1,6 +1,9 @@
 import React from 'react'
 import DashboardLayout from '../../components/dashboard-layout/dashboard-layout';
+import LineChart from '../../components/chart/LineChart';
 import BarChart from '../../components/chart/BarChart';
+import LineChart1 from '../../components/chart/LineChart1';
+import DoughnutChart1 from '../../components/chart/DoughnutChart1';
 import { AiOutlineAppstore, AiOutlineCalendar, AiFillThunderbolt } from "react-icons/ai";
 import { BiMessageSquareDots, BiDotsVerticalRounded } from "react-icons/bi";
 import { RiContactsLine, RiPlayListAddLine } from "react-icons/ri";
@@ -71,19 +74,26 @@ const Dashboard = () => {
         </div>
 
         <div className="md:grid md:grid-cols-2 md:gap-6 md:mt-6 md:mx-6">
-        <div className="h-auto md:w-auto border border-gray-300 shadow-md rounded-md mx-6 md:mx-0 mt-1 py-2 px-4">
+        <div className="h-72 md:w-auto border border-gray-300 shadow-md rounded-md mx-6 md:mx-0 mt-1 py-2 px-4">
           <div className="flex items-center justify-between">
             <span className="text-black font-semibold text-xl">New Clients</span>
             <BiDotsVerticalRounded className="h-7 w-7 text-gray-500"/>
           </div>
-          <div>chart here</div>
+          <div><LineChart1/></div>
         </div>
-         <div className="h-auto md:w-auto border border-gray-300 shadow-md rounded-md mx-6 md:mx-0 mt-1 py-2 px-4">
+         <div className="h-72 md:w-auto border border-gray-300 shadow-md rounded-md mx-6 md:mx-0 mt-1 py-2 px-4">
           <div className="flex items-center justify-between">
             <span className="text-black font-semibold text-xl">Monthly Target</span>
             <BiDotsVerticalRounded className="h-7 w-7 text-gray-500"/>
           </div>
-          <div>chart here</div>
+          <div> 
+            <DoughnutChart1/>
+            
+            {/* <div class="h-3 relative max-w-xl rounded-full overflow-hidden">
+              <div class="w-full h-full bg-gray-200 absolute"></div>
+              <div class="h-full bg-green-500 absolute w-1/2"></div>
+            </div> */}
+          </div>
         </div>
 
         <div className="h-auto md:w-auto border border-gray-300 shadow-md rounded-md mx-6 md:mx-0 mt-1 py-2 px-4">

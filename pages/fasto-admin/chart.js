@@ -10,7 +10,11 @@ const Chart = () => {
     return ( 
         <>
         <div className="m-5">
-            <BarChart/>
+            <div className="relative h-42 w-full">
+         
+                 <BarChart/>
+            
+            </div>
             <DoughnutChart/>
             <LineChart/>
             <RadarChart/>
