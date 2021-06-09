@@ -9,9 +9,14 @@ const LineChart = () => {
             datasets: [{
                 label: 'New Clients',
                 data: [300,400,450,600,350,300,400,450,600,350,400,450,600,350],
-                backgroundColor:  'rgba(77, 175, 124, 1)',
-                barThickness: 20,
-                borderRadius: 12,
+                backgroundColor:  'rgba(52, 73, 94, 1)',
+               
+            }],
+            datasets: [{
+                label: 'Old Clients',
+                data: [200,100,300.250,150,178,224,200,100,300.250,150,178,224],
+                backgroundColor:  'rgba(137, 196, 244, 1)',
+               
             }]
         }}
 
