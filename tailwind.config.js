@@ -20,12 +20,14 @@ module.exports = {
           // => @media (min-width: 1536px) { ... }
           
           '3xl': '2560px',
-      }
+      },
     },
+    fontFamily: {
+      body: ['Overpass']
+    }
   },
   variants: {
     extend: {
-     
     },
   },
   plugins: [require('@tailwindcss/forms')],

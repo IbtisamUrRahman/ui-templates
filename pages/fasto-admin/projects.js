@@ -1,5 +1,6 @@
 import React from 'react'
 import DashboardLayout from '../../components/dashboard-layout/dashboard-layout';
+import Footer from '../../components/Footer';
 import { AiOutlineCalendar, AiFillThunderbolt } from "react-icons/ai";
 import { BiDotsVerticalRounded } from "react-icons/bi";
 
@@ -93,11 +94,11 @@ const Projects = () => {
                         <BiDotsVerticalRounded className="h-10 w-10 ml-4 xl:ml-24 text-gray-500"/>
                     </div>
                 </div>
-            </div>
+            </div> 
 
             {/* <!-- project-2 --> */}
 
-            <div className="h-auto rounded-md shadow-md m-4 border-l-8 border-gray-400 p-4">
+             <div className="h-auto rounded-md shadow-md m-4 border-l-8 border-gray-400 p-4">
                 <h4 className="">#P - 000441425</h4>
                 <div className="flex">
                     <div className="mr-12 md:mr-24">
@@ -187,7 +188,7 @@ const Projects = () => {
 
              {/* <!-- project-3 --> */}
 
-            <div className="h-auto rounded-md shadow-md m-4 border-l-8 border-gray-400 p-4">
+             <div className="h-auto rounded-md shadow-md m-4 border-l-8 border-gray-400 p-4">
                 <h4 className="">#P - 000441425</h4>
                 <div className="flex">
                     <div className="mr-12 md:mr-24">
@@ -273,11 +274,11 @@ const Projects = () => {
                         <BiDotsVerticalRounded className="h-10 w-10 ml-4 xl:ml-24 text-gray-500"/>
                     </div>
                 </div>
-            </div>
+            </div> 
 
             {/* <!-- project-4 --> */}
 
-            <div className="h-auto rounded-md shadow-md m-4 border-l-8 border-gray-400 p-4">
+             <div className="h-auto rounded-md shadow-md m-4 border-l-8 border-gray-400 p-4">
                 <h4 className="">#P - 000441425</h4>
                 <div className="flex">
                     <div className="mr-12 md:mr-24">
@@ -363,8 +364,9 @@ const Projects = () => {
                         <BiDotsVerticalRounded className="h-10 w-10 ml-4 xl:ml-24 text-gray-500"/>
                     </div>
                 </div>
-            </div>
-
+            </div> 
+            
+            <Footer/>
         </DashboardLayout>
         </>
      );

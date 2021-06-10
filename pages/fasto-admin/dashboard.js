@@ -30,7 +30,7 @@ const Dashboard = () => {
               </div>
             </div>
             <div className="bg-gray-800 text-gray-200 pl-4 text-sm font-medium w-full px-2 py-1">
-              <span  className="hover:text-blue-700 cursor-pointer">View all projects</span>
+              <span  className="hover:text-gray-100 cursor-pointer">View all projects</span>
             </div>
           </div>
 
@@ -45,7 +45,7 @@ const Dashboard = () => {
               </div>
             </div>
             <div className="bg-gray-800 text-gray-200 pl-4 text-sm font-medium w-full px-2 py-1">
-              <span  className="hover:text-blue-700 cursor-pointer">View all contacts</span>
+              <span  className="hover:text-gray-100 cursor-pointer">View all contacts</span>
             </div>
           </div>
           <div className="h-auto bg-white shadow-md mx-4 lg:mx-0 mt-2 md:mt-0 lg:mt-2">
@@ -59,12 +59,12 @@ const Dashboard = () => {
               </div>
             </div>
             <div className="bg-gray-800 text-gray-200 pl-4 text-sm font-medium w-full px-2 py-1">
-              <span className="hover:text-blue-700 cursor-pointer">View all messages</span>
+              <span className="hover:text-gray-100 cursor-pointer">View all messages</span>
             </div>
           </div>
           <div className="h-auto bg-white shadow-md mx-4 lg:mx-0 mt-2 md:mt-0 lg:mt-2">
             <div className="flex items-center justify-between py-3 mx-3 lg:mb-2">
-              <div className="w-1/4">
+              <div className="w-1/2 xl:w-1/4 2xl:w-1/2">
                  <span className="text-3xl font-medium block mt-2 mb-3 lg:mb-1">03</span>
                  <span className="block text-gray-500 font-medium text-sm">Unfinished Tasks</span>
               </div>
@@ -73,7 +73,7 @@ const Dashboard = () => {
               </div>
             </div>
             <div className="bg-gray-800 text-gray-200 pl-4 text-sm font-medium w-full px-2 py-1">
-              <span className="hover:text-blue-700 cursor-pointer">View all tasks</span>
+              <span className="hover:text-gray-100 cursor-pointer">View all tasks</span>
             </div>
           </div>
         </div>
@@ -150,8 +150,8 @@ const Dashboard = () => {
         </div> 
         </div> 
         
-        <div className="2xl:grid 2xl:grid-cols-2 2xl:gap-4 2xl:mx-6">
-        <div className="h-auto bg-white shadow-md mx-6 2xl:mx-0 mt-2 md:mt-6 ">
+        <div className="2xl:grid 2xl:grid-cols-2">
+        <div className="h-auto bg-white shadow-md mx-6 mt-2 md:mt-6 ">
           <div className="md:flex md:justify-between">
           <div className="w-full flex items-center justify-between px-4 py-1 bg-gray-800">
              <span className="text-2xl font-medium text-gray-200 block tracking-wider">Recent Messages</span>
@@ -258,12 +258,12 @@ const Dashboard = () => {
            </div>
         </div>
         <div className="2xl:col-span-2">
-        <div className="h-auto bg-gray-800 border shadow-md mx-6 mt-2 py-2 px-4 md:mt-6">
+        <div className="h-auto bg-gray-800 shadow-md mx-6 mt-2 py-2 px-4 md:mt-6">
          <div className="flex items-center justify-between">
            <div className="my-2">
              <span className="text-2xl font-medium text-gray-200 block tracking-wider"> Quick To-Do List</span>
            </div>
-           <BsPlus size="2em" className="text-gray-800 rounded-sm p-1"/>
+           <BsPlus size="3em" className="text-gray-200 rounded-sm p-1"/>
          </div>
         </div>
 
