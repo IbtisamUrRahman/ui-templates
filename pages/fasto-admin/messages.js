@@ -10,9 +10,9 @@ const Messages = () => {
     return ( 
         <>
         <DashboardLayout>
-            <div className="bg-gray-100 h-screen font-body">
+            <div className="bg-gray-100 3xl:px-4 h-screen font-body">
             <div className="xl:grid xl:grid-flow-col xl:grid-cols-2 xl:grid-rows-3 2xl:grid-cols-3 xl:gap-1 xl:m-2">
-            <div className="bg-white xl:col-span-1  h-auto xl:h-40 m-4 xl:m-2 px-6 py-4 shadow-md border border-gray-200">
+            <div className="bg-white xl:col-span-1  h-auto xl:h-40 m-4 xl:m-2 px-6 py-4 shadow-md rounded-md border border-gray-200">
                 <div className="flex items-center justify-between">
                     <div className="flex items-center">
                 <div className="flex items-center">
@@ -32,8 +32,8 @@ const Messages = () => {
                 </div>
             </div>
 
-            <div className="bg-white h-auto m-4 xl:m-2 xl:-mt-4 px-6 py-4 mt-3 shadow-md overflow-y-auto border border-gray-200 xl:row-span-2">
-                <div className="flex mb-4">
+            <div className="bg-white h-auto m-4 xl:m-2 xl:-mt-4  py-4 mt-3 shadow-md rounded-md overflow-y-auto border border-gray-200 xl:row-span-2">
+                <div className="flex mb-4 px-6">
                     <div className="flex items-center mr-8 border-r border-gray-500">
                         <BsChatSquare className="text-indigo-500 h-4 w-4 mr-2"/>
                         <a><span className="font-medium text-indigo-500 mr-4">Chats</span></a>
@@ -48,9 +48,9 @@ const Messages = () => {
                     </div>                    
                 </div>
                 <div>
-                    <span className="text-gray-800">Recent Chats</span>
+                    <span className="text-gray-800 px-6">Recent Chats</span>
                 </div>
-                <div className="mt-4 h-72 overflow-y-auto">
+                <div className="mt-4 h-72 overflow-y-auto px-6">
                 <div className="flex my-4">
                 <img className="h-12 w-12 rounded-full object-cover mr-4" src="https://images.unsplash.com/photo-1542962302-7019cec5ae21?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTk3fHxwcm9maWxlJTIwcGljdHVyZXN8ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60"></img>
                 <div className="flex-1 border-b border-gray-200">
@@ -129,8 +129,8 @@ const Messages = () => {
                 </div>
               </div> 
             
-            <div className="bg-white h-auto m-4 xl:m-2 px-6 py-4 shadow-md border border-gray-200 xl:row-span-3 2xl:col-span-2">
-            <div className="flex items-center justify-between mb-3">
+            <div className="bg-white h-auto m-4 xl:m-2 py-4 shadow-md rounded-md border border-gray-200 xl:row-span-3 2xl:col-span-2">
+            <div className="flex items-center justify-between mb-3 px-6">
                 <div className="flex items-center">
                     <div className="flex items-center">
                         <img className="h-14 w-14 rounded-full object-cover" src="https://images.unsplash.com/photo-1549492864-2ec7d66ffb04?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjIxfHxwcm9maWxlJTIwcGljdHVyZXN8ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60"></img>
@@ -148,7 +148,7 @@ const Messages = () => {
                 </div>
                  </div>
                     <hr/>
-                    <div className="h-96 overflow-y-auto">
+                    <div className="h-96 overflow-y-auto px-6">
                     <div className="flex justify-start mt-6">
                         <img className="h-14 w-14 rounded-full object-cover mr-4" src="https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YWR1bHQlMjBib3l8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60"></img>
                         <div className="bg-gray-100 w-3/4 px-4 py-2 rounded-xl">
@@ -181,7 +181,7 @@ const Messages = () => {
                     </div>
                     </div>
 
-                    <div className="h-14 mt-4 py-4 px-3 flex items-center justify-between">
+                    <div className="h-14 mt-4 py-4 flex items-center justify-between px-6">
                         <div className="flex justify-between py-4 px-3  rounded-sm border border-gray-300 w-11/12">
                             <input className="focus:outline-none" placeholder="Type message..."></input>
                             <div className="flex items-center">
@@ -190,8 +190,9 @@ const Messages = () => {
                                 <BiSun className="h-6 w-6 mr-2 text-gray-500"/>
                             </div>
                         </div>
-                        <div class="flex-shrink-0 ml-4 w-14 h-14 rounded-full border border-gray-300 inline-flex items-center justify-center text-gray-700 relative z-10">
-                            <RiSendPlaneFill className="h-10 w-10"/>
+                        <div class="flex-shrink-0 ml-4 w-24 h-14 rounded-md bg-indigo-500 border border-gray-300 inline-flex items-center justify-center text-white relative z-10">
+                            <RiSendPlaneFill className="h-7 w-7 mr-2"/>
+                            <span className="uppercase font-medium mr-2">send</span>
                         </div>
                     </div>
                 </div>

@@ -20,6 +20,7 @@ module.exports = {
           // => @media (min-width: 1536px) { ... }
           
           '3xl': '2560px',
+          '4xl': '1440px',
       },
     },
     fontFamily: {

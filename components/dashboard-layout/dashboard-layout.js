@@ -112,7 +112,7 @@ class="hidden lg:block h-full w-64 bg-gray-900 overflow-hidden  px-8 py-4 lg:fix
   </button>
 </nav>
 </div>
-<div className="hidden bg-gray-50 lg:block lg:w-2/6 lg:-ml-20 xl:-ml-44 2xl:-ml-64 3xl:w-1/6 3xl:-ml-44"></div>
+<div className="hidden bg-gray-50 lg:block lg:w-2/6 lg:-ml-20 xl:-ml-44 2xl:-ml-64 3xl:w-1/6 3xl:-ml-44 4xl:-ml-56"></div>
 
 {/* <!-- side bar ends --> */}
 
