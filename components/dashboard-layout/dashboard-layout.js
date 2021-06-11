@@ -24,53 +24,56 @@ class="hidden lg:block h-full w-64 bg-gray-900 overflow-hidden  px-8 py-4 lg:fix
   </div>
 <nav class="mt-4">
   <div class="mt-2 -mx-3">
-    <a href="#" class="flex justify-between items-center px-3 py-2 mt-3 group rounded-md border-l-8 border-indigo-300">
+    <a href="#" class="flex justify-between items-center px-3 py-2 mt-3 group rounded-md border-l-8 border-blue-800">
       <div className="flex items-center group ">
-        <RiDashboardLine className="h-5 w-5 mr-2 text-gray-300 group-hover:text-indigo-300 transform group-hover:scale-125"/>
-        <Link href="/fasto-admin/dashboard"><span class="text-lg font-medium text-gray-300 active:pl-2 cursor-pointer group-hover:text-indigo-300 transform group-hover:scale-125">Dashboard</span></Link>
+        <RiDashboardLine className="h-5 w-5 mr-2 text-gray-300 group-hover:text-indigo-300 hover:scale-105 ease-out transform"/>
+        <Link href="/fasto-admin/dashboard"><span class="text-lg font-medium text-gray-300 active:pl-2 cursor-pointer group-hover:text-indigo-300">Dashboard</span></Link>
       </div>
-      <FiChevronDown className="h-4 w-4 fill-current text-gray-300 group-hover:text-indigo-300"/>
+      <FiChevronDown className="h-4 w-4 fill-current text-gray-300 group-hover:text-indigo-300 transform hover:scale-105 ease-out"/>
     </a>
     <div className="ml-10 my-3">
-       <Link href="/fasto-admin/projects"><span className="font-medium text-sm text-gray-300 cursor-pointer block transform hover:text-indigo-300">Projects</span></Link> 
-      <Link href="/fasto-admin/Contacts"><span className="font-medium text-sm text-gray-300 cursor-pointer block mt-2 hover:text-indigo-300">Contact</span></Link>
-      <Link href="/fasto-admin/messages"><span className="font-medium text-sm text-gray-300 cursor-pointer block mt-2 hover:text-indigo-300">Chats</span></Link>
-      <Link href="/fasto-admin/kanban"><span className="font-medium text-sm text-gray-300 cursor-pointer block mt-2 hover:text-indigo-300">Kanban</span></Link> 
+       <Link href="/fasto-admin/projects"><span className="font-medium text-sm text-gray-300 cursor-pointer block hover:text-indigo-300 transform hover:scale-105 ease-out">Projects</span></Link> 
+      <Link href="/fasto-admin/Contacts"><span className="font-medium text-sm text-gray-300 cursor-pointer block mt-2 hover:text-indigo-300 transform hover:scale-105 ease-out">Contact</span></Link>
+      <Link href="/fasto-admin/messages"><span className="font-medium text-sm text-gray-300 cursor-pointer block mt-2 hover:text-indigo-300 transform hover:scale-105 ease-out">Chats</span></Link>
+      <Link href="/fasto-admin/kanban"><span className="font-medium text-sm text-gray-300 cursor-pointer block mt-2 hover:text-indigo-300 transform hover:scale-105 ease-out">Kanban</span></Link> 
     </div>
     <a href="#" class="flex justify-between items-center rounded-lg px-3 py-2 group">
       <div className="flex items-center group">
-        <HiOutlineMail className="h-5 w-5 mr-3 text-gray-300 group-hover:text-indigo-300"/>
+        <HiOutlineMail className="h-5 w-5 mr-3 text-gray-300 group-hover:text-indigo-300 transform hover:scale-105 ease-out"/>
       <span class="text-lg font-medium text-gray-300 group-active:border-l-8 group-hover:text-indigo-300">Email</span>
       </div>
-      <FiChevronDown className="h-4 w-4 fill-current text-gray-300 group-hover:text-indigo-300"/>
+      <FiChevronDown className="h-4 w-4 fill-current text-gray-300 group-hover:text-indigo-300 transform hover:scale-105 ease-out"/>
     </a>
     <div className="ml-10 my-3">
-       <Link href="/fasto-admin/apps/email/compose"><span className="font-medium text-sm text-gray-300 hover:text-indigo-300 cursor-pointer block">Compose</span></Link>
-      <Link href="/fasto-admin/apps/email/inbox"><span className="font-medium text-sm text-gray-300 hover:text-indigo-300 block cursor-pointer mt-2">Inbox</span></Link>
-      <Link href="/fasto-admin/apps/email/read"><span className="font-medium text-sm text-gray-300 hover:text-indigo-300 block cursor-pointer mt-2">Read</span></Link> 
+       <Link href="/fasto-admin/apps/email/compose"><span className="font-medium text-sm text-gray-300 hover:text-indigo-300 transform hover:scale-105 ease-out cursor-pointer block">Compose</span></Link>
+      <Link href="/fasto-admin/apps/email/inbox"><span className="font-medium text-sm text-gray-300 hover:text-indigo-300 transform hover:scale-105 ease-out block cursor-pointer mt-2">Inbox</span></Link>
+      <Link href="/fasto-admin/apps/email/read"><span className="font-medium text-sm  text-gray-300 ease- out hover:text-indigo-300 transform hover:scale-105 ease-out block cursor-pointer mt-2">Read</span></Link> 
     </div>
     <a href="#" class="flex justify-between items-center rounded-lg px-3 py-2 group">
       <div className="flex items-center group">
-        <AiOutlineShopping className="h-5 w-5 mr-3 text-gray-300 group-hover:text-indigo-300"/>
+        <AiOutlineShopping className="h-5 w-5 mr-3 text-gray-300 group-hover:text-indigo-300 transform hover:scale-105 ease-out"/>
         <span class="text-lg font-medium text-gray-300 group-hover:text-indigo-300">Shop</span>
       </div>
       <FiChevronDown className="h-4 w-4 fill-current text-gray-300 group-hover:text-indigo-300"/>
     </a>
     <div className="ml-10 my-3">
-      <Link href="/fasto-admin/apps/shop/profile"><span className="font-medium text-sm text-gray-300 cursor-pointer block mt-2 hover:text-indigo-300">Profile</span></Link>
-      <Link href="/fasto-admin/apps/shop/shop-product-grid"><span className="font-medium text-sm text-gray-300 cursor-pointer block mt-2 hover:text-indigo-300">Product Grid</span></Link>
-      <Link href="/fasto-admin/apps/shop/shop-product-list"><span className="font-medium text-sm text-gray-300 cursor-pointer block mt-2 hover:text-indigo-300">Product List</span></Link>
-      <Link href="/fasto-admin/apps/shop/shop-product-details"><span className="font-medium text-sm text-gray-300 cursor-pointer block mt-2 hover:text-indigo-300">Product Details</span></Link>
-      <Link href="/fasto-admin/apps/shop/orders"><span className="font-medium text-sm text-gray-300 cursor-pointer block mt-2 hover:text-indigo-300">Orders</span></Link>
-      <Link href="/fasto-admin/apps/shop/checkout"><span className="font-medium text-sm text-gray-300 cursor-pointer block mt-2 hover:text-indigo-300">Checkout</span></Link>
-      <Link href="/fasto-admin/apps/shop/invoice"><span className="font-medium text-sm text-gray-300 cursor-pointer block mt-2 hover:text-indigo-300">Invoice</span></Link>
-      <Link href="/fasto-admin/apps/shop/customers"><span className="font-medium text-sm text-gray-300 cursor-pointer block mt-2 hover:text-indigo-300">Customers</span></Link> 
+      <Link href="/fasto-admin/apps/shop/profile"><span className="font-medium text-sm text-gray-300 cursor-pointer block mt-2 hover:text-indigo-300 transform hover:scale-105 easeout">Profile</span></Link>
+      <Link href="/fasto-admin/apps/shop/shop-product-grid"><span className="font-medium text-sm text-gray-300 cursor-pointer block mt-2 hover:text-indigo-300 transform hover:scale-105 ease-out">Product Grid</span></Link>
+      <Link href="/fasto-admin/apps/shop/shop-product-list"><span className="font-medium text-sm text-gray-300 cursor-pointer block mt-2 hover:text-indigo-300 transform hover:scale-105 ease-out">Product List</span></Link>
+      <Link href="/fasto-admin/apps/shop/shop-product-details"><span className="font-medium text-sm text-gray-300 cursor-pointer block mt-2 hover:text-indigo-300 transform hover:scale-105 ease-out">Product Details</span></Link>
+      <Link href="/fasto-admin/apps/shop/orders"><span className="font-medium text-sm text-gray-300 cursor-pointer block mt-2 hover:text-indigo-300 transform hover:scale-105 ease-out">Orders</span></Link>
+      <Link href="/fasto-admin/apps/shop/checkout"><span className="font-medium text-sm text-gray-300 cursor-pointer block mt-2 hover:text-indigo-300 transform hover:scale-105 ease-out">Checkout</span></Link>
+      <Link href="/fasto-admin/apps/shop/invoice"><span className="font-medium text-sm text-gray-300 cursor-pointer block mt-2 hover:text-indigo-300 transform hover:scale-105 ease-out">Invoice</span></Link>
+      <Link href="/fasto-admin/apps/shop/customers"><span className="font-medium text-sm text-gray-300 cursor-pointer block mt-2 hover:text-indigo-300 transform hover:scale-105 ease-out">Customers</span></Link> 
     </div>
     <a href="#" class="flex justify-between items-center rounded-lg px-3 py-2">
-      <div className="flex items-center group">
-        <BsGear className="h-5 w-5 mr-3 text-gray-300 group-hover:text-indigo-300"/>
-        <Link href="/fasto-admin/widget"><span class="text-lg font-medium cursor-pointer text-gray-300 hover:text-indigo-300">Widget</span></Link>
-      </div>
+        <div className="flex items-center group">
+          <BsGear className="h-5 w-5 mr-3 text-gray-300 group-hover:text-indigo-300"/>
+          <Link href="/fasto-admin/widget"><span class="text-lg font-medium cursor-pointer text-gray-300 hover:text-indigo-300">Widget</span></Link>
+        </div>
+        <div className="h-5 w-10 bg-indigo-500 text-white flex justify-center rounded-sm">
+          <span className="text-xs py-1 px-2 font-medium capitalize mb-1">new</span>
+        </div>
     </a>
     <a href="#" class="flex justify-between items-center rounded-lg px-3 py-2 group">
       <div className="flex items-center group">
@@ -80,7 +83,7 @@ class="hidden lg:block h-full w-64 bg-gray-900 overflow-hidden  px-8 py-4 lg:fix
       <FiChevronDown className="h-4 w-4 fill-current text-gray-300 group-hover:text-indigo-300"/>
     </a>
     <div className="ml-10 my-3">
-     <Link href="/fasto-admin/form-wizard"><span className="font-medium text-sm text-gray-300 cursor-pointer block hover:text-indigo-300">Wizard</span></Link> 
+     <Link href="/fasto-admin/form-wizard"><span className="font-medium text-sm text-gray-300 cursor-pointer block hover:text-indigo-300 transform hover:scale-105 ease-out">Wizard</span></Link> 
     </div> 
     <a href="#" class="flex justify-between items-center rounded-lg px-3 py-2 group">
       <div className="flex items-center group">
@@ -90,10 +93,10 @@ class="hidden lg:block h-full w-64 bg-gray-900 overflow-hidden  px-8 py-4 lg:fix
       <FiChevronDown className="h-4 w-4 fill-current text-gray-300 group-hover:text-indigo-300"/>
     </a>
     <div className="ml-10 my-3">
-     <Link href="/fasto-admin/pages/register"><span className="font-medium text-sm text-gray-300 cursor-pointer block hover:text-indigo-300">Register</span></Link> 
-      <Link href="/fasto-admin/pages/login"><span className="font-medium text-sm text-gray-300 cursor-pointer block mt-2 hover:text-indigo-300">Login</span></Link>
-      <Link href="/fasto-admin/pages/lockscreen"><span className="font-medium text-sm text-gray-300 cursor-pointer block mt-2 hover:text-indigo-300">Lockscreen</span></Link>
-      <Link href="/fasto-admin/pages/error"><span className="font-medium text-sm text-gray-300 cursor-pointer block mt-2 hover:text-indigo-300">Error</span></Link>
+     <Link href="/fasto-admin/pages/register"><span className="font-medium text-sm text-gray-300 cursor-pointer block hover:text-indigo-300 transform hover:scale-105 ease-out">Register</span></Link> 
+      <Link href="/fasto-admin/pages/login"><span className="font-medium text-sm text-gray-300 cursor-pointer block mt-2 hover:text-indigo-300 transform hover:scale-105 ease-out">Login</span></Link>
+      <Link href="/fasto-admin/pages/lockscreen"><span className="font-medium text-sm text-gray-300 cursor-pointer block mt-2 hover:text-indigo-300 transform hover:scale-105 ease-out">Lockscreen</span></Link>
+      <Link href="/fasto-admin/pages/error"><span className="font-medium text-sm text-gray-300 cursor-pointer block mt-2 hover:text-indigo-300 transform hover:scale-105 ease-out">Error</span></Link>
     </div>
     <a href="#" class="flex justify-between items-center rounded-lg px-3 py-2 group">
       <div className="flex items-center group">
@@ -103,8 +106,8 @@ class="hidden lg:block h-full w-64 bg-gray-900 overflow-hidden  px-8 py-4 lg:fix
       <FiChevronDown className="h-4 w-4 fill-current text-gray-300 group-hover:text-indigo-300"/>
     </a>
     <div className="ml-10 my-3">
-     <Link href="/fasto-admin/tables/bootstrap"><span className="font-medium text-sm text-gray-300 cursor-pointer block hover:text-indigo-300">Bootstrap table</span></Link> 
-     <Link href="/fasto-admin/tables/datatables"><span className="font-medium text-sm text-gray-300 cursor-pointer block mt-2 hover:text-indigo-300">Datatable</span></Link>
+     <Link href="/fasto-admin/tables/bootstrap"><span className="font-medium text-sm text-gray-300 cursor-pointer block hover:text-indigo-300 transform hover:scale-105 ease-out">Bootstrap table</span></Link> 
+     <Link href="/fasto-admin/tables/datatables"><span className="font-medium text-sm text-gray-300 cursor-pointer block mt-2 hover:text-indigo-300 transform hover:scale-105 ease-out">Datatable</span></Link>
     </div>
   </div>
   <button class="w-full text-gray-60 mt-2 border border-blue-500 p-2 rounded transform hover:-translate-y-0.5">
@@ -241,6 +244,7 @@ class="hidden lg:block h-full w-64 bg-gray-900 overflow-hidden  px-8 py-4 lg:fix
     </div>
   </header>
 </div>
+<div className="fixed top-24 right-0 p-2 rounded-md w-10 h-8 bg-white text-gray-900"><BsGear className="animate-spin"/></div>
 
  {/* header components ends */}
 

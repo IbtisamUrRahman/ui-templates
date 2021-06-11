@@ -158,7 +158,7 @@ const Messages = () => {
                     <div className="flex justify-start flex-row-reverse mt-7">
                         <img className="h-14 w-14 rounded-full object-cover ml-4" src="https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YWR1bHQlMjBib3l8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60"></img>
                         <div className="bg-green-50 w-3/4 px-4 py-2 rounded-xl">
-                            <span className=" text-gray-800">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
+                            <span className=" text-gray-800 text-sm">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
                         </div>
                     </div>
                     <div className="flex justify-start mt-7">
@@ -170,7 +170,7 @@ const Messages = () => {
                     <div className="flex justify-start flex-row-reverse mt-7">
                         <img className="h-14 w-14 rounded-full object-cover ml-4" src="https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YWR1bHQlMjBib3l8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60"></img>
                         <div className="bg-green-50 w-3/4 px-4 py-2 rounded-xl">
-                            <span className=" text-gray-800">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
+                            <span className=" text-gray-800 text-sm">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
                         </div>
                     </div>
                     <div className="flex justify-start mt-7">
@@ -190,7 +190,7 @@ const Messages = () => {
                                 <BiSun className="h-6 w-6 mr-2 text-gray-500"/>
                             </div>
                         </div>
-                        <div class="flex-shrink-0 ml-4 w-24 h-14 rounded-md bg-indigo-500 border border-gray-300 inline-flex items-center justify-center text-white relative z-10">
+                        <div class="flex-shrink-0 ml-4 w-24 h-14 rounded-md bg-indigo-500 hover:bg-indigo-400 border border-gray-300 inline-flex items-center justify-center text-white relative z-10">
                             <RiSendPlaneFill className="h-7 w-7 mr-2"/>
                             <span className="uppercase font-medium mr-2">send</span>
                         </div>
