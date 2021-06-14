@@ -19,8 +19,8 @@ module.exports = {
           '2xl': '1536px',
           // => @media (min-width: 1536px) { ... }
           
-          '3xl': '2560px',
-          '4xl': '1440px',
+          // '3xl': '2560px',
+          // '4xl': '1440px',
       },
     },
     fontFamily: {
