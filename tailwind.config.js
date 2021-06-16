@@ -3,6 +3,16 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      margin: {
+        '-98': '-26rem',
+        '-99': '-36rem',
+        
+       },
+       height: {
+        '97': '34rem',
+        '98': '36rem',
+        '99': '40rem'
+       },
         screens: {
           'sm': '640px',
           // => @media (min-width: 640px) { ... }

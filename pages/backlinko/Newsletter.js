@@ -3,7 +3,7 @@ import Footer from "../../components/backlinko/Footer";
 const Newsletter = () => {
 
     return ( 
-        <>
+        <div className="antialiased">
            <div className="h-auto bg-white border-b border-gray-200 -mr-12 lg:-mr-0">
         <div className="container lg:mx-auto pt-5 lg:mb-5 h-auto w-full lg:w-5/6 xl:w-5/6 3xl:w-3/6">
             <header>
@@ -78,7 +78,7 @@ const Newsletter = () => {
         </div>
         <Footer/>
 
-        </>
+        </div>
      );
 }
  

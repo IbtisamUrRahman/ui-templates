@@ -2,7 +2,7 @@ import {AiOutlineMenu} from 'react-icons/ai';
 
 const Email = () => {
     return ( 
-        <>
+        <div className="antialiased">
         <div className="h-auto -mr-12 lg:-mr-0 w-screen">
         <div className="container lg:mx-auto pt-5 lg:mb-5 h-auto w-full lg:w-5/6 xl:w-5/6 3xl:w-3/6">
             <header>
@@ -719,7 +719,182 @@ const Email = () => {
             </div> 
         </div>
         </section> 
-        </>
+        <section className="bg-white mt-4">
+        <div className="h-auto">
+            <div className="container mx-auto  w-5/6 container pt-5 lg:mb-5 h-auto lg:w-4/6 3xl:w-3/6">
+                <div className="font-extrabold text-gray-900 text-4xl pt-12 text-center capitalize">The Announcement</div>
+                <p class="w-full py-8 mb-2 leading-loose text-gray-900 text-2xl font-medium text-left">
+                    With “The Announcement” email you’re not pitching a “10% Off Sale”. That type of thing works best with The Marketing Offer template I just showed you. <br/>
+
+                    Instead, you want to save this template for BIG announcements, like:
+                    <ul>
+                        <li className="list-disc list-inside">Brand new product or service</li>
+                        <li className="list-disc list-inside">Live event</li>
+                        <li className="list-disc list-inside">Limited-time product release</li>
+                        <li className="list-disc list-inside">Important features added to an existing product</li>
+                    </ul> 
+                </p>
+                <img  class="w-full object-cover object-center" src="https://mk0apibacklinkov1r5n.kinstacdn.com/app/uploads/2021/05/the-announcement.svg" ></img>
+            </div> 
+            <div className="container mx-auto  w-5/6 container pt-5 lg:mb-5 h-auto lg:w-4/6 3xl:w-3/6">
+                <p class="w-full py-8 mb-2 leading-loose text-gray-900 text-2xl font-medium text-left">
+                    <strong>Subject Line=”Introducing” or “Announcing”s</strong> <br/>
+                        You want to make it clear that your announcement is a big deal. <br/>
+
+                        After all, you’ll probably only send one or two Announcement emails per year. <br/>
+
+                        So don’t be afraid to use terms like “Introducing” or “For the first time” in your subject line.<br/>
+
+                        For example, here’s the subject line I used when I launched a new version of my flagship course:<br/>
+
+                </p>
+                <img  class="w-full object-cover object-center" src="https://mk0apibacklinkov1r5n.kinstacdn.com/app/uploads/2019/05/seo-that-works-email-subject-e1558095196729-640x342.webp" ></img>
+            </div>
+            <div className="container mx-auto  w-5/6 container pt-5 lg:mb-5 h-auto lg:w-4/6 3xl:w-3/6">
+                <p class="w-full py-8 mb-2 leading-loose text-gray-900 text-2xl font-medium text-left">
+                    <strong>Compelling Lead</strong> <br/>
+                        You have a few different options here. <br/>
+
+                        You can jump right into your product announcement:
+
+                </p>
+                <img  class="w-full object-cover object-center" src="https://mk0apibacklinkov1r5n.kinstacdn.com/app/uploads/2019/05/seo-that-works-email-intro-e1558095240428-640x189.webp" ></img>
+            </div>
+            <div className="container mx-auto  w-5/6 container pt-5 lg:mb-5 h-auto lg:w-4/6 3xl:w-3/6">
+                <p class="w-full py-8 mb-2 leading-loose text-gray-900 text-2xl font-medium text-left">
+                    Or you can build up a little bit of anticipation, like Marie Forleo does here:
+                </p>
+                <img  class="w-full object-cover object-center" src="https://mk0apibacklinkov1r5n.kinstacdn.com/app/uploads/2021/05/marie-forleo-newsletter-640x546.webp" ></img>
+            </div>
+            <div className="container mx-auto  w-5/6 container pt-5 lg:mb-5 h-auto lg:w-4/6 3xl:w-3/6">
+                <p class="w-full py-8 mb-2 leading-loose text-gray-900 text-2xl font-medium text-left">
+                    <strong>The Big Reveal</strong> <br/>
+                    Now it’s time to outline what exactly you’re announcing and why it’s important. <br/>
+
+                    For example, in this announcement email BuzzSumo quickly outlines what makes their new feature unique.
+
+                </p>
+                <img  class="w-full object-cover object-center" src="https://mk0apibacklinkov1r5n.kinstacdn.com/app/uploads/2019/05/buzzsumo-offer-outline-e1558095357488-640x586.webp" ></img>
+                <p class="w-full py-8 mb-2 leading-loose text-gray-900 text-2xl font-medium text-left">
+                    <strong>Clear CTA</strong> <br/>
+                        Now that your reader is pumped about your announcement, let them know the next step. <br/>
+
+                        If it’s a product, your CTA should tell people to head over to your sales page and sign up. <br/>
+
+                        If it’s a new service, you might ask people to fill out a form. <br/>
+
+                        Either way, let your subscriber know EXACTLY what to do next.
+
+                </p>
+            </div>
+        </div>
+        </section> 
+        <section className="bg-gray-100 mt-4">
+        <div className="h-auto">
+            <div className="container mx-auto  w-5/6 container pt-5 lg:mb-5 h-auto lg:w-4/6 3xl:w-3/6">
+                <div className="font-extrabold text-gray-900 text-4xl pt-12 text-center capitalize">The Blog Post Newsletter</div>
+                <p class="w-full py-8 mb-2 leading-loose text-gray-900 text-2xl font-medium text-left">
+                    When it comes to content promotion, email is king. <br/>
+
+                    For example, I published this post in the 2019.
+                </p>
+                <img  class="w-full object-cover object-center" src="https://mk0apibacklinkov1r5n.kinstacdn.com/app/uploads/2021/01/backlinko-seo-strategy-2021-640x549.webp" ></img>
+            </div> 
+            <div className="container mx-auto  w-5/6 container pt-5 lg:mb-5 h-auto lg:w-4/6 3xl:w-3/6">
+                <p class="w-full py-8 mb-2 leading-loose text-gray-900 text-2xl font-medium text-left">
+                    And to get the word out, I sent a newsletter out to my email list:
+                </p>
+                <img  class="w-full object-cover object-center" src="https://mk0apibacklinkov1r5n.kinstacdn.com/app/uploads/2019/05/seo-strategy-email-e1558095417634-640x409.webp" ></img>
+            </div> 
+            <div className="container mx-auto  w-5/6 container pt-5 lg:mb-5 h-auto lg:w-4/6 3xl:w-3/6">
+                <p class="w-full py-8 mb-2 leading-loose text-gray-900 text-2xl font-medium text-left">
+                    I also posted a Tweet.
+                </p>
+                <img  class="w-full object-cover object-center" src="https://mk0apibacklinkov1r5n.kinstacdn.com/app/uploads/2019/05/seo-strategy-announcement-tweet-e1558095458779-640x832.webp" ></img>
+            </div> 
+            <div className="container mx-auto  w-5/6 container pt-5 lg:mb-5 h-auto lg:w-4/6 3xl:w-3/6">
+                <p class="w-full py-8 mb-2 leading-loose text-gray-900 text-2xl font-medium text-left">
+                    The Tweet got 962 clicks. And the newsletter got 15,744 clicks.
+                </p>
+                <img  class="w-full object-cover object-center" src="https://mk0apibacklinkov1r5n.kinstacdn.com/app/uploads/2021/05/blog-post-newsletter-vs-tweet.svg" ></img>
+            </div> 
+            <div className="container mx-auto  w-5/6 container pt-5 lg:mb-5 h-auto lg:w-4/6 3xl:w-3/6">
+                <p class="w-full py-8 mb-2 leading-loose text-gray-900 text-2xl font-medium text-left">
+                    With that, here’s the template I recommend:
+                </p>
+                <img  class="w-full object-cover object-center" src="https://mk0apibacklinkov1r5n.kinstacdn.com/app/uploads/2021/05/the-blog-post-newsletter.svg" ></img>
+            </div> 
+            <div className="container mx-auto  w-5/6 container pt-5 lg:mb-5 h-auto lg:w-4/6 3xl:w-3/6">
+                <p class="w-full py-8 mb-2 leading-loose text-gray-900 text-2xl font-medium text-left">
+                    Finally, add a link to your post. <br/>
+
+                    This can be a normal link:
+                </p>
+                <img  class="w-full object-cover object-center" src="https://mk0apibacklinkov1r5n.kinstacdn.com/app/uploads/2019/05/text-link-to-post-e1558095616456-640x210.webp" ></img>
+            </div> 
+            <div className="container mx-auto  w-5/6 container pt-5 lg:mb-5 h-auto lg:w-4/6 3xl:w-3/6">
+                <p class="w-full py-8 mb-2 leading-loose text-gray-900 text-2xl font-medium text-left">
+                    Or a big ol’ button:
+                </p>
+                <img  class="w-full object-cover object-center" src="https://mk0apibacklinkov1r5n.kinstacdn.com/app/uploads/2019/05/blue-cta-e1558095652747-640x381.webp" ></img>
+            </div> 
+        </div>
+        </section> 
+          {/* chapter 4 */}
+          <section className="bg-green-600 -mt-4">
+            <div className="h-auto">
+            <div className="container lg:mx-auto pt-5 lg:mb-5 h-auto w-full lg:w-5/6 xl:w-5/6 3xl:w-3/6">
+                    <h1 class="title-font text-2xl mb-4 font-medium text-center text-gray-200 pt-4">Chapter 4:</h1>
+                    <p class="mb-8 leading-relaxed text-gray-200 text-3xl text-center">How to Get Super High Open Rates</p>
+                <div class="container mx-auto flex px-5 pt-12 pb-20  md:flex-row flex-col items-start">
+                    <div class="lg:flex-grow md:w-1/2 lg:w-3/6 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                        <p class="pt-8 lg:pt-0 mb-8 lg:mb-0 lg:pl-12 leading-relaxed text-gray-200 text-xl xl:text-2xl xl:leading-loose font-medium text-left">
+                            Now it’s time for me to show you how to get SUPER high open rates. <br/>
+
+                            In fact, I consistently get 35%+ open rates on newsletters that go out to 100k+ subscribers. <br/>
+
+                            Which is double the industry average for a list that size.) <br/>
+
+                            Let’s get right into the strategies.
+                        </p>
+                    </div>
+                    <div class="lg:max-w-lg lg:w-3/6 md:w-1/2 w-5/6 xl:pl-20">
+                        <img class="object-cover object-center" src="https://mk0apibacklinkov1r5n.kinstacdn.com/app/uploads/2019/07/how-to-get-super-high-open-rates-480x361.webp"/>
+                    </div>
+                </div>
+        </div>
+        </div>
+        </section>
+        <section className="bg-white mt-4">
+        <div className="h-auto">
+            <div className="container mx-auto  w-5/6 container pt-5 lg:mb-5 h-auto lg:w-4/6 3xl:w-3/6">
+                <div className="font-extrabold text-gray-900 text-4xl pt-12 text-center capitalize">Optimize Your Send Time</div>
+                <p class="w-full py-8 mb-2 leading-loose text-gray-900 text-2xl font-medium text-left">
+                You want to send emails… <br/>
+
+                        <ul>
+                            <li className="list-disc list-inside">When people are awake</li>
+                            <li className="list-disc list-inside">When people’s inboxes aren’t crowded</li>
+                        </ul> 
+
+                    That’s why I DON’T recommend scheduling newsletters for first thing in the morning.
+
+                    Otherwise, your message gets buried in someone’s crowded inbox.
+                </p>
+                <img  class="w-full object-cover object-center" src="https://mk0apibacklinkov1r5n.kinstacdn.com/app/uploads/2021/05/dont-schedule-newsletters-for-first-thing-in-the-morning.svg" ></img>
+            </div> 
+            <div className="container mx-auto  w-5/6 container pt-5 lg:mb-5 h-auto lg:w-4/6 3xl:w-3/6">
+                <p class="w-full py-8 mb-2 leading-loose text-gray-900 text-2xl font-medium text-left">
+                    Instead, send your emails out when your subscribers’ inboxes are empty. This is usually late morning or early afternoon. <br/>
+
+                    That way, your newsletter will pop up at the top of their inbox.
+                </p>
+                <img  class="w-full object-cover object-center" src="https://mk0apibacklinkov1r5n.kinstacdn.com/app/uploads/2021/05/send-newsletters-when-your-subscribers-inboxes-are-empty.svg" ></img>
+            </div> 
+        </div>
+        </section>
+        
+        </div>
      );
 }
  
