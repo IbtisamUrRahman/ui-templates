@@ -5,7 +5,7 @@ import Footer from "../../components/backlinko/Footer";
 const About = () => {
     return ( 
         <div className="antialiased">
-          <div className="h-auto pl-4 lg:pl-0 bg-gradient-to-b from-white to-gray-100 -mr-12 lg:-mr-0">
+          <div className="h-auto pl-4 lg:pl-0 bg-gradient-to-b from-white to-gray-100 -mr-99 sm:-mr-12 lg:-mr-24">
         <div className="container lg:mx-auto pt-5 lg:mb-5 h-auto w-full lg:w-5/6 3xl:w-3/6">
             <header>
                 <div className="flex items-center justify-between px-8">
@@ -27,7 +27,7 @@ const About = () => {
                     <h1 class="font-extrabold  text-7xl lg:text-5xl xl:text-7xl mb-4 text-gray-900 lg:leading-snug">Want higher rankings 
                         <br class="hidden xl:inline-block"/> and  more traffic ?
                     </h1>
-                    <p class="mt-6 text-3xl font-normal leading-normal">You’ve come to the right place. Backlinko is the place for next-level SEO training and link building strategies.</p>
+                    <p class="mt-6 text-5xl sm:text-3xl font-normal leading-normal">You’ve come to the right place. Backlinko is the place for next-level SEO training and link building strategies.</p>
                     </div>
                     <div class="hidden lg:block lg:max-w-lg lg:w-full md:w-1/6 w-5/6">
                         <img class="object-cover object-center rounded-xl" alt="hero" src="https://mk0apibacklinkov1r5n.kinstacdn.com/app/uploads/2020/02/Brian-0048-480x480.webp"/>
@@ -39,7 +39,7 @@ const About = () => {
 
         {/* grid section */}
 
-        <div className="h-auto bg-white pl-4 lg:pl-0 -mr-12 lg:-mr-0">
+        <div className="h-auto bg-white pl-4 lg:pl-0 -mr-99 sm:-mr-12 lg:-mr-14">
         <div className="container lg:mx-auto pt-5 lg:mb-5 h-auto w-full lg:w-5/6 3xl:w-3/6">
         <section class="text-gray-600 body-font border border-gray-300">
             <div class="container px-5 py-12 mx-auto">
@@ -48,37 +48,37 @@ const About = () => {
                 <div class="p-4 md:w-1/3 sm:w-1/2 w-full">
                     <div class="px-4 py-6 rounded-lg">
                         <img className="mx-auto" src="https://mk0apibacklinkov1r5n.kinstacdn.com/app/uploads/2020/02/inc-logo-1.svg"></img>
-                    <p class="text-center leading-relaxed mt-3 font-medium text-base">"Brian Dean is one of the world’s most sought-after SEO experts"</p>
+                    <p class="text-center leading-relaxed mt-3 font-medium text-3xl sm:text-base">"Brian Dean is one of the world’s most sought-after SEO experts"</p>
                     </div>
                 </div>
                 <div class="p-4 md:w-1/3 sm:w-1/2 w-full">
                     <div class="px-4 py-6 rounded-lg">
                     <img className="mx-auto" src="https://mk0apibacklinkov1r5n.kinstacdn.com/app/uploads/2020/02/smt-logo.svg"></img>
-                    <p class="text-center leading-relaxed mt-3 font-medium text-base">“Exceptionally talented”</p>
+                    <p class="text-center leading-relaxed mt-3 font-medium text-3xl sm:text-base">“Exceptionally talented”</p>
                     </div>
                 </div>
                 <div class="p-4 md:w-1/3 sm:w-1/2 w-full">
                     <div class="px-4 py-6 rounded-lg">
                     <img className="mx-auto" src="https://mk0apibacklinkov1r5n.kinstacdn.com/app/uploads/2020/02/thf-logo.svg"></img>
-                    <p class="text-center leading-relaxed mt-3 font-medium text-base">"Backlinko: a recommended resource to become a better SEO"</p>
+                    <p class="text-center leading-relaxed mt-3 font-medium text-3xl sm:text-base">"Backlinko: a recommended resource to become a better SEO"</p>
                     </div>
                 </div>
                 <div class="p-4 md:w-1/3 sm:w-1/2 w-full">
                     <div class="px-4 py-6 rounded-lg">
                     <img className="mx-auto" src="https://mk0apibacklinkov1r5n.kinstacdn.com/app/uploads/2020/02/tnw-logo.svg"></img>
-                    <p class="text-center leading-relaxed mt-3 font-medium text-base">"SEO genius</p>
+                    <p class="text-center leading-relaxed mt-3 font-medium text-3xl sm:text-base">"SEO genius</p>
                     </div>
                 </div>
                 <div class="p-4 md:w-1/3 sm:w-1/2 w-full">
                     <div class="px-4 py-6 rounded-lg">
                     <img className="mx-auto" src="https://mk0apibacklinkov1r5n.kinstacdn.com/app/uploads/2020/02/forbes-logo.svg"></img>
-                    <p class="text-center leading-relaxed mt-3 font-medium text-base">“Backlinko is the place for next-level SEO training and link building strategies”</p>
+                    <p class="text-center leading-relaxed mt-3 font-medium text-3xl sm:text-base">“Backlinko is the place for next-level SEO training and link building strategies”</p>
                     </div>
                 </div>
                 <div class="p-4 md:w-1/3 sm:w-1/2 w-full">
                     <div class="px-4 py-6 rounded-lg">
                     <img className="mx-auto" src="https://mk0apibacklinkov1r5n.kinstacdn.com/app/uploads/2020/02/business-logo.svg"></img>
-                    <p class="text-center leading-relaxed mt-3 font-medium text-base">“Brian Dean’s Backlinko Blog is the go-to SEO guide of many digital marketers and entrepreneurs”</p>
+                    <p class="text-center leading-relaxed mt-3 font-medium text-3xl sm:text-base">“Brian Dean’s Backlinko Blog is the go-to SEO guide of many digital marketers and entrepreneurs”</p>
                     </div>
                 </div>
                 </div>
@@ -88,17 +88,17 @@ const About = () => {
         </div>    
 
         {/* description */}
-        <div className="h-auto bg-white pl-4 lg:pl-0 -mr-12 mt-6 lg:-mr-0 pb-20">
+        <div className="h-auto bg-white pl-4 lg:pl-0 mt-6 -mr-99 sm:-mr-12 lg:-mr-14 pb-20">
             <div className="container lg:mx-auto pt-5 lg:mb-5 h-auto w-full lg:w-5/6 3xl:w-3/6">
-                <h1 className="text-gray-900 font-bold text-3xl text-center" >What Backlinko is all about</h1>
+                <h1 className="text-gray-900 font-bold text-5xl sm:text-3xl text-center" >What Backlinko is all about</h1>
                 <div className="block lg:flex lg:items-center lg:justify-between lg:px-0 mt-8 lg:mt-12 px-12">
                     <div>
-                        <p className="text-normal font-medium text-lg leading-loose">If you’ve ever wondered: <br/> “Where can I find actionable SEO advice that gets results?”, you’re in the right place. Backlinko is where professional marketers turn for proven SEO advice.
+                        <p className="text-normal font-medium text-4xl sm:text-lg leading-loose">If you’ve ever wondered: <br/> “Where can I find actionable SEO advice that gets results?”, you’re in the right place. Backlinko is where professional marketers turn for proven SEO advice.
                             <br/> My effective SEO advice is why marketers from companies like Apple, Disney, IBM, and Amazon subscribe to my email newsletter.</p>
                     </div>
-                    <div className="h-80 lg:h-72 2xl:h-60 px-20 lg:px-6 lg:pt-6 border border-gray-300 mt-8 lg:ml-4 lg:mt-0">
-                        <span className="text-green-500 text-3xl lg:text-2xl font-bold leading-loose">“Brian is a really smart SEO guy who knows what he’s talking about because he lives it every day.”</span>
-                        <img className="mx-auto mt-4 xl:mt-12" src="https://mk0apibacklinkov1r5n.kinstacdn.com/app/uploads/2020/02/inc-logo-1.svg"></img>
+                    <div className="p-4 h-80 lg:h-72 2xl:h-60 px-20 lg:px-6 lg:pt-6 border border-gray-300 mt-8 lg:ml-4 lg:mt-0">
+                        <span className="text-green-500 text-4xl sm:text-3xl lg:text-2xl font-bold leading-loose">“Brian is a really smart SEO guy who knows what he’s talking about because he lives it every day.”</span>
+                        <img className="mx-auto mt-4 md:mt-24 lg:mt-14 xl:mt-16" src="https://mk0apibacklinkov1r5n.kinstacdn.com/app/uploads/2020/02/inc-logo-1.svg"></img>
                     </div>
                 </div>
             </div>
@@ -106,18 +106,18 @@ const About = () => {
 
         {/* trusted by */}
 
-        <div className="h-auto bg-gray-100 pl-4 lg:pl-0 -mr-12 mt-6 lg:-mr-0 pb-10">
+        <div className="h-auto bg-gray-100 pl-4 lg:pl-0 -mr-99 sm:-mr-12 lg:-mr-24 mt-6 pb-10">
             <div className="container lg:mx-auto pt-5 lg:mb-5 h-auto w-full lg:w-5/6 3xl:w-3/6">
                 <div className="bg-white mx-16 px-12 py-8 rounded-xl text-center mt-8">
                     <span className="text-4xl font-bold text-gray-900">Want actionable SEO advice from me ? Then Hop on the newsletter.</span>
-                    <div className="block lg:flex lg:items-center mt-6">
-                        <input type="text" className="block w-full rounded-lg lg:rounded-r-none focus:outline-none lg:w-4/6 p-3 bg-white border border-gray-200" placeholder="Email Address"/>
-                        <button className="mt-3 mb-4 rounded-lg lg:rounded-l-none block w-full lg:w-2/6 bg-green-500 text-gray-100 text-lg font-medium px-4 py-3 hover:bg-green-600">Try it</button>
+                    <div className="block lg:flex lg:items-center p-6 sm:p-0 mt-6">
+                        <input type="text" className="block w-full text-3xl sm:text-lg rounded-lg lg:rounded-r-none focus:outline-none lg:w-4/6 p-3 bg-white border border-gray-200" placeholder="Email Address"/>
+                        <button className="mt-3 mb-4 rounded-lg lg:rounded-l-none block w-full lg:w-2/6 bg-green-500 text-gray-100 text-3xl sm:text-lg font-medium px-4 py-3 hover:bg-green-600">Try it</button>
                     </div>
                 </div>
                 <section class="text-gray-600 body-font">
             <div class="container px-5 py-6 mx-auto">
-            <span className="font-bold text-2xl text-green-500 uppercase flex justify-center mt-3 mb-5">trusted by </span>
+            <span className="font-bold text-4xl sm:text-2xl text-green-500 uppercase flex justify-center mt-3 mb-5">trusted by </span>
                 <div class="flex items-center flex-wrap -m-4 text-center">
                 <div class="p-4 lg:w-1/4 sm:w-1/2 w-full">
                     <div class="px-4 py-6 rounded-lg">
@@ -147,7 +147,7 @@ const About = () => {
 
         {/* how backlinko helps */}
 
-        <div className="h-auto pl-4 lg:pl-0 -mr-12 mt-6 lg:-mr-0">
+        <div className="h-auto pl-4 lg:pl-0 -mr-99 sm:-mr-12 lg:-mr-24 mt-6">
             <div className="container lg:mx-auto pt-5 lg:mb-5 h-auto w-full lg:w-5/6 3xl:w-3/6">
                 <h1 className="text-gray-900 font-extrabold text-5xl text-center leading-normal" >How Backlinko Helps You Get Higher Rankings and More Traffic</h1>
                 <section class="text-gray-600 body-font">
@@ -156,7 +156,7 @@ const About = () => {
                             <img class="object-cover object-center rounded" alt="hero" src="https://mk0apibacklinkov1r5n.kinstacdn.com/app/uploads/2020/02/Brian-0045-300x385.webp"/>
                         </div>
                         <div class="lg:flex-grow lg:w-3/4 md:pl-12 flex flex-col lg:items-start lg:text-left items-center text-center">
-                        <p class="mb-8 leading-relaxed text-2xl lg:text-xl xl:leading-loose font-medium">
+                        <p class="mb-8 leading-relaxed text-4xl sm:text-2xl lg:text-xl xl:leading-loose font-medium">
                                 Most so-called “SEO experts” say: “To succeed with SEO, all you need to do is create great content.”
 
                                 If only it were that easy…
@@ -178,14 +178,14 @@ const About = () => {
         {/* higher rankings */}
 
 
-        <div className="h-auto  pl-4 lg:pl-0 -mr-12 mt-6 lg:-mr-0 pb-10">
+        <div className="h-auto pl-4 lg:pl-0 -mr-99 sm:-mr-12 lg:-mr-24 mt-6 pb-10">
             <div className="container lg:mx-auto pt-5 lg:mb-5 h-auto w-full lg:w-5/6 3xl:w-3/6">
                 <div className="bg-green-500 rounded-lg px-24 py-12">
-                    <h1 className="text-white font-extrabold text-4xl xl:text-5xl text-center leading-normal" >Want higher rankings ?</h1>
-                    <p className="text-white text-center text-2xl font-medium xl:mx-20 mt-10">Then join 110,424 others (including top marketers from Apple, Disney, IBM, and Amazon) that get my weekly SEO tips via email.</p>
+                    <h1 className="text-white font-extrabold text-5xl sm:text-4xl xl:text-5xl text-center leading-normal" >Want higher rankings ?</h1>
+                    <p className="text-white text-center text-3xl sm:text-2xl font-medium xl:mx-20 mt-10">Then join 110,424 others (including top marketers from Apple, Disney, IBM, and Amazon) that get my weekly SEO tips via email.</p>
                     <div className="block lg:flex lg:items-center mt-10">
-                        <input type="text" className="block w-full rounded-lg lg:rounded-r-none focus:outline-none lg:w-4/6 p-3 bg-white border border-gray-200" placeholder="Email Address"/>
-                        <button className="mt-3 mb-4 rounded-lg lg:rounded-l-none block w-full lg:w-2/6 bg-black text-gray-100 text-lg font-medium px-4 py-3 hover:bg-green-600">Try it</button>
+                        <input type="text" className="block w-full text-3xl sm:text-lg rounded-lg lg:rounded-r-none focus:outline-none lg:w-4/6 p-3 bg-white border border-gray-200" placeholder="Email Address"/>
+                        <button className="mt-3 mb-4 rounded-lg lg:rounded-l-none block text-3xl sm:text-lg w-full lg:w-2/6 bg-black text-gray-100 font-medium px-4 py-3 hover:bg-green-600">Try it</button>
                     </div>
                 </div>
             </div>
@@ -193,16 +193,16 @@ const About = () => {
 
         {/* about brian dean */}
 
-        <div className="h-auto pl-4 lg:pl-0 -mr-12 mt-6 lg:-mr-0">
+        <div className="h-auto mb-4 pl-4 lg:pl-0 -mr-99 sm:-mr-12 lg:-mr-24 mt-6">
             <div className="container lg:mx-auto pt-5 lg:mb-5 h-auto w-full lg:w-5/6 3xl:w-3/6">
                 <h1 className="text-gray-900 font-extrabold text-5xl text-center leading-normal" >About Brian Dean</h1>
                 <section class="text-gray-600 body-font">
-                    <div class="container mx-auto flex px-5 pt-24 py-12 md:flex-row flex-col items-start">
+                    <div class="container mx-auto flex px-5 pt-24 pb-24 md:flex-row flex-col items-start">
                         <div class="hidden w-full lg:block lg:max-w-lg lg:w-1/4 mb-10 md:mb-0">
                             <img class="object-cover object-center rounded" alt="hero" src="https://mk0apibacklinkov1r5n.kinstacdn.com/app/uploads/2020/02/Brian-0052-300x300.webp"/>
                         </div>
                         <div class="lg:flex-grow lg:w-3/4 md:pl-12 flex flex-col lg:items-start lg:text-left items-center text-center">
-                        <p class="mb-4 leading-relaxed text-2xl lg:text-xl xl:leading-loose font-medium">
+                        <p class="mb-4 leading-relaxed text-4xl sm:text-2xl lg:text-xl xl:leading-loose font-medium">
                         Backlinko was founded by Brian Dean, an internationally recognized SEO expert.
 
                         After failing with his first five online businesses, Brian finally struck gold with a site in the personal finance space in 2012. He created Backlinko to teach the lessons he learned along the way.
@@ -211,7 +211,7 @@ const About = () => {
 
                         </p>
                         <div className="flex items-center">
-                        <a className="bg-blue-500 px-3 py-1 text-white rounded-md mr-4">
+                        <a className="bg-blue-500 px-3 py-1 text-lg text-white rounded-md mr-4">
                             Follow @backlinko
                         </a>
                         <a className="bg-white px-3 py-1 text-black border border-black rounded-sm">

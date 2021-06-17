@@ -4,8 +4,8 @@ import {AiOutlineMenu} from 'react-icons/ai';
 
 const Home = () => {
     return ( 
-        <div className="antialiased">
-        <div className="h-auto max-w-screen sm:bg-gradient-to-b from-white to-gray-100 -mr-99 sm:-mr-12 lg:-mr-14 ml-14 sm:ml-0">
+        <div className="antialiased m-0 p-0 box-border">
+        <div className="h-auto max-w-screen sm:bg-gradient-to-b from-white to-gray-100 -mr-99 sm:-mr-12 lg:-mr-24 ml-14 sm:ml-0">
         <div className="container xl:mx-auto pt-5 lg:mb-5 h-auto w-full lg:w-full xl:w-5/6 3xl:w-3/6">
             <header>
                 <div className="flex items-center justify-between sm:ml-10 sm:mr-3 pl-14 pr-8 sm:pl-8 sm:pr-0">
@@ -45,13 +45,13 @@ const Home = () => {
             </section>
         </div>
         </div>
-        <div className="block border-t border-b border-gray-300 sm:bg-gray-100 -mr-99 sm:-mr-12 lg:-mr-14 ml-14 sm:ml-0 lg:hidden">
+        <div className="block border-t border-b border-gray-300 sm:bg-gray-100 -mr-99 sm:-mr-12 lg:-mr-24 ml-14 sm:ml-0 lg:hidden">
             <div className="container mx-auto w-5/6">
         <div className="bg-gray-100 sm:bg-white rounded-lg h-32 sm:h-28 md:h-24 w-full  border border-gray-200 flex items-start p-4 mt-4">
           <img className="h-20 w-20 rounded-full object-cover md:-mt-3 lg:-mt-0" src="https://mk0apibacklinkov1r5n.kinstacdn.com/app/uploads/2020/02/kieran-flanagan-1.png" />
           <div className="ml-4">
-            <p className="font-medium max-w-prose text-2xl sm:text-lg text-gray-500">"I thought the blog was good. But the newsletter? Even better !"</p>
-            <p className="font-medium max-w-prose text-2xl sm:text-lg text-gray-500">Kieran Flangnan, VP Marketing at Hubspot</p>
+            <p className="font-normal max-w-prose text-2xl sm:text-lg text-gray-500">"I thought the blog was good. But the newsletter? <br className="inline md:hidden"/> Even better !"</p>
+            <p className="font-normal max-w-prose text-2xl sm:text-lg text-gray-500">Kieran Flangnan, VP Marketing at Hubspot</p>
          </div>
         </div>
         <div className="w-full mt-4">
@@ -64,21 +64,21 @@ const Home = () => {
         {/* main section here */}
 
         <main>
-            <div className="h-auto my-10 -mr-99 sm:-mr-12 lg:-mr-6 ml-14 sm:ml-0">
-                <div className="container xl:mx-auto w-full xl:w-5/6 3xl:w-3/6">
+            <div className="h-auto my-6 -mr-99 sm:-mr-12 lg:-mr-24 ml-14 sm:ml-0">
+                <div className="container mx-auto pb-4 w-full sm:w-full lg:w-full xl:w-5/6 3xl:w-3/6">
                     <span className="font-medium text-2xl sm:text-xl text-green-500 uppercase flex justify-center mt-3">brian has been featured on </span>
                     <div class="container px-5 py-12 lg:ml-12 mx-auto">
-                        <div class="flex items-center">
-                            <div class="w-1/2 sm:p-4 mx-auto">
+                        <div class="flex items-center justify-evenly">
+                            <div class="w-1/2 p-4 mx-auto">
                             <img src="https://mk0apibacklinkov1r5n.kinstacdn.com/app/uploads/2020/02/entrepreneur-logo.svg"></img> 
                             </div>
-                            <div class="w-1/2 sm:p-4 mx-auto">
+                            <div class="w-1/2 p-4 mx-auto">
                                <img src="https://mk0apibacklinkov1r5n.kinstacdn.com/app/uploads/2020/02/forbes-logo.svg"></img>
                             </div>
-                            <div class="w-1/2 sm:p-4 mx-auto">
+                            <div class="w-1/2 p-4 mx-auto">
                                 <img src="https://mk0apibacklinkov1r5n.kinstacdn.com/app/uploads/2020/02/huffpost-logo.svg"></img>
                             </div>
-                            <div class="w-1/2 sm:p-4 mx-auto">
+                            <div class="w-1/2 p-4 mx-auto">
                               <img src="https://mk0apibacklinkov1r5n.kinstacdn.com/app/uploads/2020/02/inc-logo.svg"></img>
                             </div>
                         </div>
@@ -88,7 +88,7 @@ const Home = () => {
         </main>
 
             {/* testimonials */}
-            <div className="h-auto my-6 -mr-99 sm:-mr-12 lg:-mr-14 ml-14 sm:ml-0">
+            <div className="h-auto my-6 -mr-99 sm:-mr-12 lg:-mr-24 ml-14 sm:ml-0">
                 <div className="container mx-auto pb-4 w-full sm:w-full lg:w-full xl:w-5/6 3xl:w-3/6">
                 <span className="font-medium text-2xl sm:text-xl text-green-500 uppercase flex justify-center mt-3">What other are saying </span>
                     <div className="h-56 md:h-48 lg:h-60 xl:h-46  border border-gray-300 rounded-lg mx-5 mt-24">
@@ -112,7 +112,7 @@ const Home = () => {
 
             {/* feature resources */}
 
-            <div className="h-auto mt-6 pb-12 sm:bg-gradient-to-b from-white to-gray-100 -mr-99 sm:-mr-12 lg:-mr-14 ml-14 sm:ml-0">
+            <div className="h-auto mt-6 pb-12 sm:bg-gradient-to-b from-white to-gray-100 -mr-99 sm:-mr-12 lg:-mr-24 ml-14 sm:ml-0">
                 <div className="bg-white container mx-auto py-8 border border-gray-200 rounded-lg w-full md:w-5/6 lg:w-4/6">
                     <span className="font-bold text-2xl text-green-500 uppercase flex justify-center mt-3">Featured Resources</span>
                     <span className="font-bold text-4xl text-gray-900 flex justify-center mt-8">SEO in 2021: The Definitive Guide</span>
@@ -122,7 +122,7 @@ const Home = () => {
                     </div>
                     <div className="block px-20 mt-8 md:flex md:items-center">
                         <input type="text" className="block w-full md:w-4/6 px-4 py-3 text-base xl:text-sm bg-white border border-gray-300 rounded-lg md:rounded-l-lg" placeholder="Your Email Address"/>
-                        <button className="block w-full sm:mt-3 md:mt-0 md:w-2/6 bg-green-500 text-gray-100 font-medium px-4 py-3 sm:px-2 text-base xl:text-sm rounded-lg md:rounded-r-lg">Get The Free Guide</button>
+                        <button className="block w-full mt-4 sm:mt-3 md:mt-0 md:w-2/6 bg-green-500 text-gray-100 font-medium px-4 py-3 sm:px-2 text-base xl:text-sm rounded-lg md:rounded-r-lg">Get The Free Guide</button>
                     </div>
                 </div>
             </div>
