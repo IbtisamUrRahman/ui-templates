@@ -4,7 +4,7 @@ import {AiOutlineMenu} from 'react-icons/ai';
 
 const Home = () => {
     return ( 
-        <div className="antialiased m-0 p-0 box-border">
+        <div className="antialiased m-0 p-0 box-border font-backlinko">
         <div className="h-auto sm:bg-gradient-to-b from-white to-gray-100 -mr-99 sm:-mr-12 lg:-mr-24 ml-14 sm:ml-0">
         <div className="container md:mx-auto pt-5 lg:mb-5 h-auto w-full lg:w-full xl:w-5/6 3xl:w-3/6">
             <header>

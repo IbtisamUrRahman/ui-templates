@@ -3,7 +3,7 @@ import Footer from "../../components/backlinko/Footer";
 const Newsletter = () => {
 
     return ( 
-        <div className="antialiased m-0 p-0 box-border">
+        <div className="antialiased m-0 p-0 box-border font-backlinko">
            <div className="h-auto bg-white border-b border-gray-200 -mr-99 sm:-mr-12 lg:-mr-24">
         <div className="container mx-auto pt-5 lg:mb-5 h-auto w-full lg:w-5/6 xl:w-5/6 3xl:w-3/6">
             <header>

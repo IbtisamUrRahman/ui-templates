@@ -6,7 +6,7 @@ import {GoTriangleUp, GoTriangleDown} from 'react-icons/go';
 
 const About = () => {
     return ( 
-        <div className="antialiased">
+        <div className="antialiased font-backlinko">
           <div className="h-auto pl-4 lg:pl-0 bg-gradient-to-b from-white to-gray-100 -mr-99 sm:-mr-12 lg:-mr-24">
         <div className="container mx-auto pt-5 lg:mb-5 h-auto w-full lg:w-5/6 3xl:w-3/6">
             <header>

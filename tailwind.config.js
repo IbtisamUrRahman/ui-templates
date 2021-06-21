@@ -34,7 +34,8 @@ module.exports = {
       },
     },
     fontFamily: {
-      body: ['Overpass']
+      body: ['Overpass'],
+      backlinko: ['Inter']
     }
   },
   variants: {
